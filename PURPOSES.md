@@ -69,3 +69,9 @@ gCurrentDescription - the "description" of the picked entry, shown in and read b
 gObjectPropertyFieldsScript - a field script cut from a template script (lines tStart to tEnd, its prefix replaced) and set into each property field made [GenericaProperties]
 gObjectPropertyCheckBoxScript - the same for the property toggle buttons: becomes the script of the templateButton before they are made [GenericaProperties]
 gLastClick - the day button clicked last (its name or the target); un-hilited when another is clicked, its label is the day [Scott Rossi calendar stack]
+
+<!-- Added 2026-11-15 from the owner's own answers (LIB_LLMOUT/Read/LIB_GLOBALS/Clarification_to_Fable_questions.txt). -->
+gGlobalList - every global the stack script declares, one per line, from list.script.globals(the mainStack): the script's "global" lines, split at commas, "global " taken off; shown so a new global is not made twice or misspelled [GenericaProperties; the owner]
+gEditorState - one undo / history state of the bitmap animation editor: the selected actor, anim and frame and the frame's bits (gBinaryString), as returned by UI.record.state(), which also appends it to the mainStack's EditorStates "states" property; used for unlimited undo (ctrl-Z goes back to the last state) and to copy anims or frames between actors [GridDraw Animation; the owner]
+gGridSize - cells per row (and per column: square grids): the grid's width divided by the cell size. The owner: "if this isn't needed it can be scrapped" [GridDraw Animation; the owner]
+tArray - not a real global: a temporary array (t = temp) made global while hunting which handler passed it the wrong data. The owner: remove the global line and run, and the culprit shows itself; likely left over from the old 3D primitives stack [BitFontMaker, GridDraw; the owner]

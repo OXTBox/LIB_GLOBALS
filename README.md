@@ -27,3 +27,18 @@ scripts, `LIB_GAMES/Vibecode3D_Games`, every `LIB_*/livecode`. Identical files c
 **Not decided yet (owner):** `gWhatIsIt` is the habit most globals follow, not a written rule;
 the 119 renames are proposals only, nothing in any script was renamed. Six proposals clash
 (two old names would become one), marked **clash** in the register.
+
+## The owner's prefixes (2026-11-15)
+From the owner's answers to Fable's questions (`LIB_LLMOUT/Read/LIB_GLOBALS/Clarification_to_Fable_questions.txt`):
+
+| Prefix | Means |
+|---|---|
+| `g` | global (`gWhatIsIt`) |
+| `b` | boolean (`bPaused`); a `b` global is fine as it is, no rename |
+| `t` | temporary (a handler's own variable). A `t` name declared global is a leftover from hunting a bug: drop the declaration, run, and see what breaks |
+| `p` | parameter passed to a handler (newer habit) |
+| `...A` | a temporary array (`tWordA`) |
+| `...Array` | a global holding an array, when it matters that it is not plain text (newer habit) |
+
+The census marks `b` globals "ok (b)" and `t`/`p` globals "leftover?".
+

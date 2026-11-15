@@ -44,8 +44,8 @@
   }
  },
  "bAltArrowKeyRepeat": {
-  "proposed": "gAltArrowKeyRepeat",
-  "follows": false,
+  "proposed": "bAltArrowKeyRepeat",
+  "follows": true,
   "python": "bool",
   "writes": 2,
   "reads": 0,
@@ -63,8 +63,8 @@
   "gad": null
  },
  "bAnimationLoop": {
-  "proposed": "gAnimationLoop",
-  "follows": false,
+  "proposed": "bAnimationLoop",
+  "follows": true,
   "python": "bool",
   "writes": 8,
   "reads": 10,
@@ -82,8 +82,8 @@
   "gad": null
  },
  "bAnimPingPong": {
-  "proposed": "gAnimPingPong",
-  "follows": false,
+  "proposed": "bAnimPingPong",
+  "follows": true,
   "python": "bool",
   "writes": 1,
   "reads": 1,
@@ -98,8 +98,8 @@
   "gad": null
  },
  "bAutoUpdate": {
-  "proposed": "gAutoUpdate",
-  "follows": false,
+  "proposed": "bAutoUpdate",
+  "follows": true,
   "python": "bool",
   "writes": 2,
   "reads": 5,
@@ -114,8 +114,8 @@
   "gad": null
  },
  "bBookSmart": {
-  "proposed": "gBookSmart",
-  "follows": false,
+  "proposed": "bBookSmart",
+  "follows": true,
   "python": "bool",
   "writes": 11,
   "reads": 0,
@@ -141,8 +141,8 @@
   "gad": null
  },
  "bClicked": {
-  "proposed": "gClicked",
-  "follows": false,
+  "proposed": "bClicked",
+  "follows": true,
   "python": "str",
   "writes": 1,
   "reads": 3,
@@ -157,8 +157,8 @@
   "gad": null
  },
  "bDeveloper": {
-  "proposed": "gDeveloper",
-  "follows": false,
+  "proposed": "bDeveloper",
+  "follows": true,
   "python": "bool",
   "writes": 4,
   "reads": 1,
@@ -175,8 +175,8 @@
   "gad": null
  },
  "bDragging": {
-  "proposed": "gDragging",
-  "follows": false,
+  "proposed": "bDragging",
+  "follows": true,
   "python": "bool",
   "writes": 4,
   "reads": 1,
@@ -202,8 +202,8 @@
   }
  },
  "bDrawBox": {
-  "proposed": "gDrawBox",
-  "follows": false,
+  "proposed": "bDrawBox",
+  "follows": true,
   "python": "bool",
   "writes": 3,
   "reads": 0,
@@ -221,8 +221,8 @@
   "gad": null
  },
  "bEditFont": {
-  "proposed": "gEditFont",
-  "follows": false,
+  "proposed": "bEditFont",
+  "follows": true,
   "python": "bool",
   "writes": 7,
   "reads": 17,
@@ -240,8 +240,8 @@
   "gad": null
  },
  "bEditor": {
-  "proposed": "gEditor",
-  "follows": false,
+  "proposed": "bEditor",
+  "follows": true,
   "python": "bool",
   "writes": 6,
   "reads": 0,
@@ -263,8 +263,8 @@
   "gad": null
  },
  "bEmptyLines": {
-  "proposed": "gEmptyLines",
-  "follows": false,
+  "proposed": "bEmptyLines",
+  "follows": true,
   "python": "str",
   "writes": 0,
   "reads": 1,
@@ -279,8 +279,8 @@
   "gad": null
  },
  "bFinishedTask": {
-  "proposed": "gFinishedTask",
-  "follows": false,
+  "proposed": "bFinishedTask",
+  "follows": true,
   "python": "bool",
   "writes": 6,
   "reads": 2,
@@ -295,8 +295,8 @@
   "gad": null
  },
  "bGameObjectIndexInvalid": {
-  "proposed": "gGameObjectIndexInvalid",
-  "follows": false,
+  "proposed": "bGameObjectIndexInvalid",
+  "follows": true,
   "python": "bool",
   "writes": 3,
   "reads": 1,
@@ -320,8 +320,8 @@
   }
  },
  "bGraphicOpaque": {
-  "proposed": "gGraphicOpaque",
-  "follows": false,
+  "proposed": "bGraphicOpaque",
+  "follows": true,
   "python": "bool",
   "writes": 2,
   "reads": 2,
@@ -336,8 +336,8 @@
   "gad": null
  },
  "bIsMouseDown": {
-  "proposed": "gIsMouseDown",
-  "follows": false,
+  "proposed": "bIsMouseDown",
+  "follows": true,
   "python": "bool",
   "writes": 1,
   "reads": 0,
@@ -359,8 +359,8 @@
   }
  },
  "bKeyDown": {
-  "proposed": "gKeyDown",
-  "follows": false,
+  "proposed": "bKeyDown",
+  "follows": true,
   "python": "bool",
   "writes": 3,
   "reads": 1,
@@ -377,8 +377,8 @@
   "gad": null
  },
  "bLockPopulation": {
-  "proposed": "gLockPopulation",
-  "follows": false,
+  "proposed": "bLockPopulation",
+  "follows": true,
   "python": "bool",
   "writes": 1,
   "reads": 0,
@@ -402,8 +402,8 @@
   }
  },
  "bLockProduction": {
-  "proposed": "gLockProduction",
-  "follows": false,
+  "proposed": "bLockProduction",
+  "follows": true,
   "python": "bool",
   "writes": 1,
   "reads": 0,
@@ -427,8 +427,8 @@
   }
  },
  "bLockPrudence": {
-  "proposed": "gLockPrudence",
-  "follows": false,
+  "proposed": "bLockPrudence",
+  "follows": true,
   "python": "bool",
   "writes": 1,
   "reads": 0,
@@ -452,8 +452,8 @@
   }
  },
  "bMissile": {
-  "proposed": "gMissile",
-  "follows": false,
+  "proposed": "bMissile",
+  "follows": true,
   "python": "bool",
   "writes": 9,
   "reads": 1,
@@ -475,8 +475,8 @@
   "gad": null
  },
  "bMonitoring": {
-  "proposed": "gMonitoring",
-  "follows": false,
+  "proposed": "bMonitoring",
+  "follows": true,
   "python": "bool",
   "writes": 6,
   "reads": 12,
@@ -495,8 +495,8 @@
   "gad": null
  },
  "bMouseDown": {
-  "proposed": "gMouseDown",
-  "follows": false,
+  "proposed": "bMouseDown",
+  "follows": true,
   "python": "bool",
   "writes": 2,
   "reads": 1,
@@ -511,8 +511,8 @@
   "gad": null
  },
  "bMouseLook": {
-  "proposed": "gMouseLook",
-  "follows": false,
+  "proposed": "bMouseLook",
+  "follows": true,
   "python": "bool",
   "writes": 9,
   "reads": 4,
@@ -608,8 +608,8 @@
   "gad": null
  },
  "bPathToolBool": {
-  "proposed": "gPathToolBool",
-  "follows": false,
+  "proposed": "bPathToolBool",
+  "follows": true,
   "python": "bool",
   "writes": 3,
   "reads": 3,
@@ -633,8 +633,8 @@
   }
  },
  "bPaused": {
-  "proposed": "gPaused",
-  "follows": false,
+  "proposed": "bPaused",
+  "follows": true,
   "python": "bool",
   "writes": 18,
   "reads": 10,
@@ -673,8 +673,8 @@
   "gad": null
  },
  "bPlaying": {
-  "proposed": "gPlaying",
-  "follows": false,
+  "proposed": "bPlaying",
+  "follows": true,
   "python": "bool",
   "writes": 19,
   "reads": 12,
@@ -709,14 +709,12 @@
    "engine flags (globals, so the card can set them)",
    "is the application running the game LOOP (as opposed to menus etc)"
   ],
-  "clash": [
-   "gPlaying"
-  ],
+  "clash": [],
   "gad": null
  },
  "bPreviewVis": {
-  "proposed": "gPreviewVis",
-  "follows": false,
+  "proposed": "bPreviewVis",
+  "follows": true,
   "python": "bool",
   "writes": 4,
   "reads": 2,
@@ -734,8 +732,8 @@
   "gad": null
  },
  "bRunning": {
-  "proposed": "gRunning",
-  "follows": false,
+  "proposed": "bRunning",
+  "follows": true,
   "python": "bool",
   "writes": 5,
   "reads": 2,
@@ -750,8 +748,8 @@
   "gad": null
  },
  "bSendToBool": {
-  "proposed": "gSendToBool",
-  "follows": false,
+  "proposed": "bSendToBool",
+  "follows": true,
   "python": "bool",
   "writes": 4,
   "reads": 8,
@@ -764,9 +762,7 @@
   "comments": [
    "to draw the send to line or not"
   ],
-  "clash": [
-   "gSendToBool"
-  ],
+  "clash": [],
   "gad": {
    "owner": "Application",
    "type": "Boolean",
@@ -801,8 +797,8 @@
   }
  },
  "bShowExamples": {
-  "proposed": "gShowExamples",
-  "follows": false,
+  "proposed": "bShowExamples",
+  "follows": true,
   "python": "str",
   "writes": 4,
   "reads": 6,
@@ -818,8 +814,8 @@
   "gad": null
  },
  "bShowTitle": {
-  "proposed": "gShowTitle",
-  "follows": false,
+  "proposed": "bShowTitle",
+  "follows": true,
   "python": "bool",
   "writes": 3,
   "reads": 1,
@@ -857,8 +853,8 @@
   }
  },
  "bSorting": {
-  "proposed": "gSorting",
-  "follows": false,
+  "proposed": "bSorting",
+  "follows": true,
   "python": "str",
   "writes": 0,
   "reads": 1,
@@ -873,8 +869,8 @@
   "gad": null
  },
  "bStartedMassImport": {
-  "proposed": "gStartedMassImport",
-  "follows": false,
+  "proposed": "bStartedMassImport",
+  "follows": true,
   "python": "bool",
   "writes": 4,
   "reads": 2,
@@ -889,8 +885,8 @@
   "gad": null
  },
  "bToggleConsoleBool": {
-  "proposed": "gToggleConsoleBool",
-  "follows": false,
+  "proposed": "bToggleConsoleBool",
+  "follows": true,
   "python": "str",
   "writes": 3,
   "reads": 2,
@@ -937,8 +933,8 @@
   }
  },
  "bVisibility": {
-  "proposed": "gVisibility",
-  "follows": false,
+  "proposed": "bVisibility",
+  "follows": true,
   "python": "bool",
   "writes": 2,
   "reads": 7,
@@ -953,8 +949,8 @@
   "gad": null
  },
  "bWatching": {
-  "proposed": "gWatching",
-  "follows": false,
+  "proposed": "bWatching",
+  "follows": true,
   "python": "bool",
   "writes": 1,
   "reads": 0,
@@ -7527,9 +7523,7 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": [
-   "bPlaying"
-  ],
+  "clash": [],
   "gad": null
  },
  "gPngHeader": {
@@ -8652,9 +8646,7 @@
    "XTJSON/batch/GAD_SendTo_And_Zoom_NODES/scripts/GAD_SendTo_And_Zoom__card_1002.livecodescript"
   ],
   "comments": [],
-  "clash": [
-   "bSendToBool"
-  ],
+  "clash": [],
   "gad": null
  },
  "gSendToPathPoints": {
