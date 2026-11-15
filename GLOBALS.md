@@ -8,14 +8,14 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gSceneObjects` | ok | - | str | 9/26 | LIB_GAMES (49), xtalk_py (21), LIB_DEV | draw list, one "MeshName GraphicName" per line (Phase 2) |
 | `bPlaying` | rename | `gPlaying **clash: gPlaying**` | bool | 19/12 | LIB_GAMES (48), xtalk_py (9), LIB_DEV | engine flags (globals, so the card can set them); is the application running the game LOOP (as opposed to menus etc) |
 | `bPaused` | rename | `gPaused` | bool | 18/10 | LIB_GAMES (48), xtalk_py (8), LIB_DEV | engine flags (globals, so the card can set them); has the game paused while playing? |
-| `gCameraYaw` | ok | - | float | 33/31 | xtalk_py (15), LIB_GAMES (13) |  |
-| `gCameraPitch` | ok | - | float | 35/19 | xtalk_py (14), LIB_GAMES (13) |  |
-| `gStackDirectory` | ok | - | str | 30/64 | XTJSON/rev (5), XTJSON/Enochian_Livecode (5), xtalk_py (2), XTJSON/Collect_stacks_export_everything (2) +8 |  |
+| `gCameraYaw` | ok | - | float | 33/31 | xtalk_py (15), LIB_GAMES (13) | camera turn left/right in radians; the mouse adds dx * kMouseSens [Vibecode3D] |
+| `gCameraPitch` | ok | - | float | 35/19 | xtalk_py (14), LIB_GAMES (13) | camera tilt up/down in radians, kept between -1.35 and 1.35; the mouse changes it by dy * kMouseSens [Vibecode3D] |
+| `gStackDirectory` | ok | - | str | 30/64 | XTJSON/rev (5), XTJSON/Enochian_Livecode (5), xtalk_py (2), XTJSON/Collect_stacks_export_everything (2) +8 | the folder the stack file is in (the path without its last item); used as the default folder [many stacks] |
 | `gDebug` | ok | - | str | 26/55 | XTJSON/GenericaProperties_02042024A (9), xtalk_py (3), LIB_GAMES (2), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries +1 | makes it easier to find my while bug hunting; long string of debug text |
-| `gViewBottom` | ok | - | float | 7/46 | LIB_GAMES (9), xtalk_py (6) |  |
-| `gViewLeft` | ok | - | float | 7/66 | LIB_GAMES (9), xtalk_py (6) |  |
+| `gViewBottom` | ok | - | float | 7/46 | LIB_GAMES (9), xtalk_py (6) | bottom edge of the 3D view: the stack's height (446 by default) [Vibecode3D] |
+| `gViewLeft` | ok | - | float | 7/66 | LIB_GAMES (9), xtalk_py (6) | left edge of the 3D view in the window (0) [Vibecode3D] |
 | `gViewRight` | ok | - | float | 7/22 | LIB_GAMES (9), xtalk_py (6) |  |
-| `gViewTop` | ok | - | float | 7/45 | LIB_GAMES (9), xtalk_py (6) |  |
+| `gViewTop` | ok | - | float | 7/45 | LIB_GAMES (9), xtalk_py (6) | top edge of the 3D view in the window (0) [Vibecode3D] |
 | `gHandlerPrefix` | ok | - | str | 14/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 |  |
 | `gHandlerSuffix` | ok | - | str | 15/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 |  |
 | `bBookSmart` | rename | `gBookSmart` | bool | 11/0 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
@@ -23,48 +23,48 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `CenterY` | rename | `gCenterY` | float | 6/46 | xtalk_py (5), LIB_GAMES (5), XTJSON/Stick_Figure_Bubble_Man | --  the center, or pivot point of the object(s) |
 | `gChangedLabelsList` | ok | - | str | 13/3 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentDescription` | ok | - | str | 32/12 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gCurrentFileList` | ok | - | str | 51/57 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gCurrentFileList` | ok | - | str | 51/57 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the files of the current folder (`the files`), or the labels file list [Generica] |
 | `gCurrentLabelArray` | ok | - | dict | 19/9 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentLabelArrayKeys` | ok | - | str | 12/7 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentLabelsList` | ok | - | dict | 12/7 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentOutline` | ok | - | dict | 19/8 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gCurrentPropertySet` | ok | - | str | 55/40 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gCurrentPropertySet` | ok | - | str | 55/40 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the custom property set in use on the card (read from and set as the customPropertySet) [Generica] |
 | `gCurrrentFolder` | ok | - | str | 11/0 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gFirstLevelArray` | ok | - | dict | 18/7 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gFirstLevelArrayKey` | ok | - | str | 12/8 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gFirstLevelArraykeys` | ok | - | str | 12/0 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gFirstLevelArrayName` | ok | - | str | 22/32 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gFirstLevelFile` | ok | - | str | 33/58 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gFirstLevelFilePath` | ok | - | str | 44/66 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gFirstLevelFolder` | ok | - | str | 22/45 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gFirstLevelArrayName` | ok | - | str | 22/32 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | gFirstLevelFile without its 4-character extension; the name its array is stored under [Generica] |
+| `gFirstLevelFile` | ok | - | str | 33/58 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the file picked in that folder [Generica] |
+| `gFirstLevelFilePath` | ok | - | str | 44/66 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | "file:" URL of gFirstLevelFile inside gFirstLevelFolderPath [Generica] |
+| `gFirstLevelFolder` | ok | - | str | 22/45 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the folder picked inside the source folder [Generica] |
 | `gFirstLevelFolderArray` | ok | - | dict | 13/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gFirstLevelFolderPath` | ok | - | str | 33/73 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gFirstLevelText` | ok | - | str | 44/54 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gFoundGlobals` | ok | - | str | 33/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gFirstLevelFolderPath` | ok | - | str | 33/73 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | gSourceDirectoryRoot & "/" & gFirstLevelFolder; used as the defaultFolder [Generica] |
+| `gFirstLevelText` | ok | - | str | 44/54 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the text of that file (put URL gFirstLevelFilePath) [Generica] |
+| `gFoundGlobals` | ok | - | str | 33/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | global names found by that scan, one per line [Generica] |
 | `gFrameworkArray` | ok | - | dict | 13/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gGlobalInitBuild` | ok | - | str | 22/55 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gGlobalInitBuild` | ok | - | str | 22/55 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the generated text of an `on initNewGlobals` handler, built from the found globals (the stack writes its own init script) [Generica] |
 | `gGlobalInitBuildHeader` | ok | - | str | 22/22 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gGlobalInitCatch` | ok | - | str | 66/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gGlobalInitCatch` | ok | - | str | 66/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | one generated line `put "name" into name` for a found global [Generica] |
 | `gGlobalList` | ok | - | str | 34/68 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gGlobalPrefixChar` | ok | - | str | 22/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gGlobalPrefixIgnoreList` | ok | - | str | 28/34 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gGlobalPrefixChar` | ok | - | str | 22/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the prefix letter that marks a global name when scanning scripts for globals [Generica] |
+| `gGlobalPrefixIgnoreList` | ok | - | str | 28/34 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | prefixes to skip in that scan, from the card's global_prefix_ignore_list property [Generica] |
 | `gInitBuild` | ok | - | str | 11/0 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gSourceDirectoryFolders` | ok | - | str | 33/35 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gSourceDirectoryRoot` | ok | - | str | 42/70 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gStackFullPath` | ok | - | str | 41/19 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gSourceDirectoryFolders` | ok | - | str | 33/35 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the folders found in the source folder (`the folders`) [Generica] |
+| `gSourceDirectoryRoot` | ok | - | str | 42/70 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the chosen source folder; also stored in the stack's Source_Directory_Root property and used as the defaultFolder [Generica] |
+| `gStackFullPath` | ok | - | str | 41/19 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | full file path of the main stack, cut from its long name [Generica] |
 | `gStackScriptGlobalHeader` | ok | - | str | 11/22 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gWidth` | ok | - | float | 22/47 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/BitFontMaker_02_20_2026 |  |
+| `gWidth` | ok | - | float | 22/47 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/BitFontMaker_02_20_2026 | width of the working area: gRight - gLeft, or a fixed 512 [Generica] |
 | `gX` | ok | - | float | 34/35 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 | game object property of x origin used for map zooming and paths, static for base and defense mobiles |
 | `gY` | ok | - | float | 34/35 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 | game object property of y origin used for map zooming and paths, static for base and defense mobiles |
 | `bMouseLook` | rename | `gMouseLook` | bool | 9/4 | xtalk_py (8), LIB_GAMES (2) |  |
 | `gArrayRootLabel` | ok | - | str | 10/5 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gBottom` | ok | - | float | 20/20 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gButtonPropertyBoolItems` | ok | - | str | 30/26 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gButtonPropertyBoolItems` | ok | - | str | 30/26 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the list of true/false button property names (visible, opaque, showName, autoHilite...) [Generica] |
 | `gFirstLevelFolderArrayLabel` | ok | - | str | 20/24 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gFirstLevelSubArray` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gFirstLevelSubArrayLabel` | ok | - | dict | 37/10 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gFirstLevelSubArrayLabel` | ok | - | dict | 37/10 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | array of that file's label lines under padded numbers ("001"...), plus "description" [Generica] |
 | `gGlob` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gHeight` | ok | - | float | 20/40 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gHeight` | ok | - | float | 20/40 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | height of the working area: gTop - gBottom [Generica] |
 | `gLastClick` | ok | - | str | 12/30 | XTJSON/Scott_Rossi_Stacks_Perhaps_question_mark (10) |  |
 | `gLeft` | ok | - | float | 10/30 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gMeshCache` | ok | - | dict | 4/3 | xtalk_py (7), LIB_GAMES (3) | cached meshes, see Mesh.Build |
@@ -81,15 +81,15 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gSecondLevelArrayKeyLabel` | ok | - | str | 14/4 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gSecondLevelArrayKeys` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gSecondLevelArrayToggles` | ok | - | str | 14/4 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gSelectedFileArray` | ok | - | dict | 22/49 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gSelectedFileArrayContentList` | ok | - | str | 30/86 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gSelectedFileArrayContentSelection` | ok | - | str | 36/10 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gSelectedFileArrayKeys` | ok | - | str | 50/47 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gSelectedFileArray` | ok | - | dict | 22/49 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the picked file's content as an array, read from and written to the card property named by gSelectedSourceDirectoryFile [Generica] |
+| `gSelectedFileArrayContentList` | ok | - | str | 30/86 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the values of gSelectedFileArray as lines, one per key [Generica] |
+| `gSelectedFileArrayContentSelection` | ok | - | str | 36/10 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the line picked (or edited) in gSelectedFileArrayContentList; written back into gSelectedFileArray [Generica] |
+| `gSelectedFileArrayKeys` | ok | - | str | 50/47 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the keys of gSelectedFileArray [Generica] |
 | `gSelectedNode` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gSelectedNodeArray` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gSelectedNodeArrayKeys` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gSelectedSourceDirectoryFile` | ok | - | str | 39/68 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gSourceDirectoryFilesList` | ok | - | str | 22/30 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gSelectedSourceDirectoryFile` | ok | - | str | 39/68 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the file (property name) picked from gSourceDirectoryFilesList; line 1 by default [Generica] |
+| `gSourceDirectoryFilesList` | ok | - | str | 22/30 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | the list of loaded files, taken from the card's customKeys [Generica] |
 | `gTop` | ok | - | float | 10/30 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `xField` | rename | `gXField` | str | 10/4 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `yField` | rename | `gYField` | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
@@ -113,14 +113,14 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gBVHFrames` | ok | - | dict | 3/6 | XTJSON/Stick_Figure_Bubble_Man (6) |  |
 | `gCardPropertySets` | ok | - | str | 12/12 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentArrayKeyHasGUI` | ok | - | str | 12/0 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gCurrentFilePath` | ok | - | str | 30/30 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gCurrentFilePath` | ok | - | str | 30/30 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | "file:" URL of the file being read or written (folder / key / name.txt, or key_description.txt) [Generica] |
 | `gCurrentFileText` | ok | - | str | 18/12 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentFolderPath` | ok | - | str | 12/28 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentPropertiesStates` | ok | - | str | 18/24 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentUIObjectIndex` | ok | - | str | 6/0 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gCurrentUITarget` | ok | - | str | 12/0 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gGameDescriptionsArray` | ok | - | dict | 18/6 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gLabelsDescription` | ok | - | str | 12/42 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
+| `gLabelsDescription` | ok | - | str | 12/42 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | copy of gCurrentFileList kept for the labels' descriptions [Generica] |
 | `gLabelsDescriptionText` | ok | - | str | 12/12 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gLabelsFilesList` | ok | - | str | 12/12 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gList` | ok | - | str | 6/0 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
@@ -128,7 +128,7 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gSelectedUIArray` | ok | - | dict | 18/6 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gUIPropertiesArrayList` | ok | - | str | 12/6 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
 | `gWriteToDirectoryRoot` | ok | - | str | 18/24 | XTJSON/GenericaProperties_02042024A (5), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries |  |
-| `gCurrentFrame` | ok | - | float | 46/34 | xtalk_py, XTJSON/Collect_stacks_export_everything, XTJSON/Stick_Figure_Bubble_Man, XTJSON/Clip_interrogation_Livecode +1 |  |
+| `gCurrentFrame` | ok | - | float | 46/34 | xtalk_py, XTJSON/Collect_stacks_export_everything, XTJSON/Stick_Figure_Bubble_Man, XTJSON/Clip_interrogation_Livecode +1 | number of the BVH frame being shown; stepped by a delta and wrapped to 1 after the last frame [Stick_Figure_Bubble_Man] |
 | `gFocalLength` | ok | - | float | 6/7 | xtalk_py (3), LIB_GAMES (2) |  |
 | `gHighLayer` | ok | - | str | 19/7 | XTJSON/Enochian_Livecode (5) |  |
 | `gLogSelection` | ok | - | bool | 0/1 | xtalk_py (3), LIB_GAMES (2) | set true to log UpdateSelectionMarker diagnostics into gSelectionHistory |
@@ -165,14 +165,14 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `bPreviewVis` | rename | `gPreviewVis` | bool | 4/2 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py |  |
 | `bshowConsole` | rename | `gBshowConsole` | str | 2/1 | XTJSON/GAD_WORKING_03_16_2026 (3) |  |
 | `foundFiles` | rename | `gFoundFiles` | str | 13/28 | XTJSON/Collect_stacks_export_everything, XTJSON/Clip_interrogation_Livecode, XTJSON/CollectorStacks |  |
-| `gBinaryString` | ok | - | str | 57/115 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py |  |
+| `gBinaryString` | ok | - | str | 57/115 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py | the glyph being edited as rows of 0/1 text (starts as an empty 16 x 16 matrix), read back with getBinaryString() [BitFontMaker] |
 | `gBinaryStringCopy` | ok | - | str | 2/4 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py |  |
 | `gConsoleOpenFiles` | ok | - | dict | 7/14 | XTJSON/rev (3) |  |
-| `gCurrentAsciiVal` | ok | - | float | 51/88 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py |  |
+| `gCurrentAsciiVal` | ok | - | float | 51/88 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py | ASCII number of the glyph being edited (0 at start; set by loops and by picking a character) [BitFontMaker] |
 | `gCurrentCharacter` | ok | - | str | 28/6 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py |  |
-| `gCurrentCharacterImage` | ok | - | float | 34/22 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py |  |
+| `gCurrentCharacterImage` | ok | - | float | 34/22 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py | index of the current glyph's image, gCurrentAsciiVal + 1, or the ImageIndex of the clicked image [BitFontMaker] |
 | `gCurrentDirectory` | ok | - | str | 2/24 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py |  |
-| `gCurrentFont` | ok | - | str | 41/124 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py |  |
+| `gCurrentFont` | ok | - | str | 41/124 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py | name of the font being edited; set when a font is picked, made or renamed; shown in the FontViewer title [BitFontMaker] |
 | `gCurrentFontFolder` | ok | - | str | 18/31 | XTJSON/BitFontMaker_02_20_2026 (2), xtalk_py | where multiple files are being saved to |
 | `gCurrentGame` | ok | - | str | 3/7 | xtalk_py (3) | was set Global once in Game.Select and never used or accesible? |
 | `gCurrentTrack` | ok | - | str | 3/0 | XTJSON/Collect_stacks_export_everything, XTJSON/Clip_interrogation_Livecode, XTJSON/CollectorStacks |  |
@@ -226,7 +226,7 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gGridY` | ok | - | float | 6/6 | xtalk_py, XTJSON/BitFontMaker_02_20_2026 |  |
 | `gHandlerEditCount` | ok | - | str | 3/0 | XTJSON/GAD_WORKING_03_16_2026 (2) |  |
 | `gInitGlobalScript` | ok | - | str | 3/0 | XTJSON/GAD_WORKING_03_16_2026 (2) | UNUSED DELETE 4 lines |
-| `gLocationsA` | ok | - | dict | 20/30 | XTJSON/That_DND_LLM_WORLD_BUILDER_THING, XTJSON/TTRPG_STUDIO_020920229AM |  |
+| `gLocationsA` | ok | - | dict | 20/30 | XTJSON/That_DND_LLM_WORLD_BUILDER_THING, XTJSON/TTRPG_STUDIO_020920229AM | the locations part of gWorldA (gWorldA["locations"]) [TTRPG Studio] |
 | `gMapCenterX` | ok | - | float | 6/5 | XTJSON/GAD_WORKING_03_16_2026, XTJSON/GAD_SendTo_And_Zoom_NODES | X loc of object used for zooming |
 | `gMapCenterY` | ok | - | float | 6/5 | XTJSON/GAD_WORKING_03_16_2026, XTJSON/GAD_SendTo_And_Zoom_NODES | Y loc of object used for zooming |
 | `gNPCA` | ok | - | dict | 4/4 | XTJSON/That_DND_LLM_WORLD_BUILDER_THING, XTJSON/TTRPG_STUDIO_020920229AM |  |
@@ -245,8 +245,8 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gStatusBrowserLauncher` | ok | - | bool | 1/1 | LIB_DEV (2) | set only by the launcher standalone when it opens the browser |
 | `gTurnLoopCount` | ok | - | float | 3/1 | XTJSON/GAD_WORKING_03_16_2026 (2) | -- number of turns played by endturnX script; --	number of turns played by endturnX script |
 | `gTurnsToRun` | ok | - | str | 3/1 | XTJSON/GAD_WORKING_03_16_2026 (2) | -- number of turns to play by endturnX script; --	number of turns to play by endturnX script |
-| `gWorldA` | ok | - | dict | 74/90 | XTJSON/That_DND_LLM_WORLD_BUILDER_THING, XTJSON/TTRPG_STUDIO_020920229AM |  |
-| `gWorldName` | ok | - | str | 24/48 | XTJSON/That_DND_LLM_WORLD_BUILDER_THING, XTJSON/TTRPG_STUDIO_020920229AM |  |
+| `gWorldA` | ok | - | dict | 74/90 | XTJSON/That_DND_LLM_WORLD_BUILDER_THING, XTJSON/TTRPG_STUDIO_020920229AM | the whole current world as an array (name, locations, each type's records); loaded from and saved to stack properties [TTRPG Studio] |
+| `gWorldName` | ok | - | str | 24/48 | XTJSON/That_DND_LLM_WORLD_BUILDER_THING, XTJSON/TTRPG_STUDIO_020920229AM | name of the current world; set from current.world() or the pWorldName parameter [TTRPG Studio] |
 | `gZoomLevel` | ok | - | float | 10/21 | XTJSON/GAD_WORKING_03_16_2026, XTJSON/GAD_SendTo_And_Zoom_NODES | map zoom percentage |
 | `maze` | rename | `gMaze` | str | 1/5 | xtalk_py, XTJSON/BitFontMaker_02_20_2026 |  |
 | `originalVal` | rename | `gOriginalVal` | str | 4/0 | XTJSON/GAD_WORKING_03_16_2026 (2) |  |
@@ -355,7 +355,7 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gEmptyPathGlobalsScript` | ok | - | str | 1/0 | XTJSON/GAD_WORKING_03_16_2026 | UNUSED 1-25-2024 |
 | `gEnterTextBool` | ok | - | bool | 1/0 | XTJSON/GAD_SendTo_And_Zoom_NODES | for passing rawkeydown when entering text |
 | `gErrorDirection` | ok | - | str | 2/0 | XTJSON/GAD_WORKING_03_16_2026 |  |
-| `gErrorIndent` | ok | - | str | 328/7 | XTJSON/GAD_WORKING_03_16_2026 |  |
+| `gErrorIndent` | ok | - | str | 328/7 | XTJSON/GAD_WORKING_03_16_2026 | indent text for the debug/error log; handlers reset it to "" and add spaces as calls nest [GAD_WORKING] |
 | `gErrorIndentSpace` | ok | - | str | 3/0 | XTJSON/GAD_WORKING_03_16_2026 |  |
 | `gErrorSourceHandler` | ok | - | str | 1/4 | XTJSON/GAD_WORKING_03_16_2026 |  |
 | `gErrorSourceLabel` | ok | - | str | 1/1 | XTJSON/GAD_WORKING_03_16_2026 |  |
@@ -412,7 +412,7 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gMobileList` | ok | - | str | 2/2 | XTJSON/GAD_WORKING_03_16_2026 |  |
 | `gMobileObjectstList` | ok | - | str | 2/2 | XTJSON/GAD_WORKING_03_16_2026 | all mobile objects |
 | `gMobilePathIndex` | ok | - | str | 1/1 | XTJSON/GAD_WORKING_03_16_2026 | name of the path being manipulated, alteration of source mobile, ie, m_001 = p_001 |
-| `gMobilePathIndexLabel` | ok | - | str | 11/41 | XTJSON/GAD_WORKING_03_16_2026 |  |
+| `gMobilePathIndexLabel` | ok | - | str | 11/41 | XTJSON/GAD_WORKING_03_16_2026 | label of a mobile object's path: gMobileIndexLabel with its first letter changed to "p" [GAD_WORKING] |
 | `gMobilePathPoints` | ok | - | str | 1/11 | XTJSON/GAD_WORKING_03_16_2026 | current path points being edited or iterated over for movement |
 | `gMobilesList` | ok | - | str | 0/0 | XTJSON/GAD_WORKING_03_16_2026 | filtered list of mobile gameobjects to iterate over, filter for mobile class, ie, d,o,e,s |
 | `gMobileTypeIndexLabel` | ok | - | str | 2/1 | XTJSON/GAD_WORKING_03_16_2026 |  |
