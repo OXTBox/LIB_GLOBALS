@@ -15,7 +15,8 @@
    "XTJSON/batch/map_zoom/scripts/animationEngine__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "assemblyItem": {
   "proposed": "gAssemblyItem",
@@ -32,7 +33,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "assemblyItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "bAltArrowKeyRepeat": {
   "proposed": "gAltArrowKeyRepeat",
@@ -50,7 +59,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bAnimationLoop": {
   "proposed": "gAnimationLoop",
@@ -68,7 +78,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bAnimPingPong": {
   "proposed": "gAnimPingPong",
@@ -83,7 +94,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bAutoUpdate": {
   "proposed": "gAutoUpdate",
@@ -98,7 +110,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bBookSmart": {
   "proposed": "gBookSmart",
@@ -124,7 +137,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bClicked": {
   "proposed": "gClicked",
@@ -139,7 +153,8 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__button_1028_Button.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bDeveloper": {
   "proposed": "gDeveloper",
@@ -156,7 +171,8 @@
   "comments": [
    "is the user on the Developer card?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bDragging": {
   "proposed": "gDragging",
@@ -175,7 +191,15 @@
   "comments": [
    "dragging in the window to change scroll position -- UNUSED 1-25-2024"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bDragging",
+   "comment": "dragging in the window to change scroll position -- UNUSED 1-25-2024"
+  }
  },
  "bDrawBox": {
   "proposed": "gDrawBox",
@@ -193,7 +217,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bEditFont": {
   "proposed": "gEditFont",
@@ -211,7 +236,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bEditor": {
   "proposed": "gEditor",
@@ -233,7 +259,8 @@
   "comments": [
    "is the engine in editor mode, ie, can the user drag objects around the scene, should keysboard act differently?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bEmptyLines": {
   "proposed": "gEmptyLines",
@@ -248,7 +275,8 @@
    "XTJSON/batch/MasterLists_02_09_2026_DND_DATAS_Not_List_removed/scripts/MasterLists__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bFinishedTask": {
   "proposed": "gFinishedTask",
@@ -263,7 +291,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bGameObjectIndexInvalid": {
   "proposed": "gGameObjectIndexInvalid",
@@ -280,7 +309,15 @@
   "comments": [
    "evaluate gGameObjectIndex"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bGameObjectIndexInvalid",
+   "comment": "evaluate gGameObjectIndex"
+  }
  },
  "bGraphicOpaque": {
   "proposed": "gGraphicOpaque",
@@ -295,7 +332,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bIsMouseDown": {
   "proposed": "gIsMouseDown",
@@ -310,7 +348,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bIsMouseDown",
+   "comment": ""
+  }
  },
  "bKeyDown": {
   "proposed": "gKeyDown",
@@ -327,7 +373,8 @@
   "comments": [
    "have to stop repeated activations of key called scripts"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bLockPopulation": {
   "proposed": "gLockPopulation",
@@ -344,7 +391,15 @@
   "comments": [
    "lock scrollbar"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bLockPopulation",
+   "comment": "lock scrollbar"
+  }
  },
  "bLockProduction": {
   "proposed": "gLockProduction",
@@ -361,7 +416,15 @@
   "comments": [
    "lock scrollbar"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bLockProduction",
+   "comment": "lock scrollbar"
+  }
  },
  "bLockPrudence": {
   "proposed": "gLockPrudence",
@@ -378,7 +441,15 @@
   "comments": [
    "lock scrollbar"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bLockPrudence",
+   "comment": "lock scrollbar"
+  }
  },
  "bMissile": {
   "proposed": "gMissile",
@@ -400,7 +471,8 @@
   "comments": [
    "is the missile firing? (primitive caveman math missile removed, until mouse selection is fixed)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bMonitoring": {
   "proposed": "gMonitoring",
@@ -419,7 +491,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bMouseDown": {
   "proposed": "gMouseDown",
@@ -434,7 +507,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bMouseLook": {
   "proposed": "gMouseLook",
@@ -454,7 +528,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "boxBottom": {
   "proposed": "gBoxBottom",
@@ -472,7 +547,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "boxLeft": {
   "proposed": "gBoxLeft",
@@ -490,7 +566,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "boxRight": {
   "proposed": "gBoxRight",
@@ -508,7 +585,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "boxTop": {
   "proposed": "gBoxTop",
@@ -526,7 +604,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bPathToolBool": {
   "proposed": "gPathToolBool",
@@ -543,7 +622,15 @@
   "comments": [
    "to draw the mobile path or not"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bPathToolBool",
+   "comment": "to draw the mobile path or not"
+  }
  },
  "bPaused": {
   "proposed": "gPaused",
@@ -582,7 +669,8 @@
    "engine flags (globals, so the card can set them)",
    "has the game paused while playing?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bPlaying": {
   "proposed": "gPlaying",
@@ -623,7 +711,8 @@
   ],
   "clash": [
    "gPlaying"
-  ]
+  ],
+  "gad": null
  },
  "bPreviewVis": {
   "proposed": "gPreviewVis",
@@ -641,7 +730,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bRunning": {
   "proposed": "gRunning",
@@ -656,7 +746,8 @@
    "XTJSON/batch/MasterLists_02_09_2026_DND_DATAS_Not_List_removed/scripts/MasterLists__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bSendToBool": {
   "proposed": "gSendToBool",
@@ -675,7 +766,15 @@
   ],
   "clash": [
    "gSendToBool"
-  ]
+  ],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bSendToBool",
+   "comment": "to draw the send to line or not"
+  }
  },
  "bshowConsole": {
   "proposed": "gBshowConsole",
@@ -691,7 +790,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bshowConsole",
+   "comment": ""
+  }
  },
  "bShowExamples": {
   "proposed": "gShowExamples",
@@ -707,7 +814,8 @@
    "XTJSON/batch/GenericaProperties_02042024A/GenericaProperties_03182026a/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bShowTitle": {
   "proposed": "gShowTitle",
@@ -722,7 +830,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bsilentConsole": {
   "proposed": "gBsilentConsole",
@@ -737,7 +846,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bsilentConsole",
+   "comment": ""
+  }
  },
  "bSorting": {
   "proposed": "gSorting",
@@ -752,7 +869,8 @@
    "XTJSON/batch/MasterLists_02_09_2026_DND_DATAS_Not_List_removed/scripts/MasterLists__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bStartedMassImport": {
   "proposed": "gStartedMassImport",
@@ -767,7 +885,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bToggleConsoleBool": {
   "proposed": "gToggleConsoleBool",
@@ -782,7 +901,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "bToggleConsoleBool",
+   "comment": ""
+  }
  },
  "buildItem": {
   "proposed": "gBuildItem",
@@ -799,7 +926,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Boolean",
+   "content": false,
+   "by_rule": true,
+   "name": "buildItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "bVisibility": {
   "proposed": "gVisibility",
@@ -814,7 +949,8 @@
    "XTJSON/batch/ImageOrganizer_03222025b/scripts/ImageOrganizer_02102025__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "bWatching": {
   "proposed": "gWatching",
@@ -829,7 +965,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "CenterX": {
   "proposed": "gCenterX",
@@ -858,7 +995,8 @@
   "comments": [
    "--  the center, or pivot point of the object(s)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "CenterY": {
   "proposed": "gCenterY",
@@ -887,7 +1025,8 @@
   "comments": [
    "--  the center, or pivot point of the object(s)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "civilizationItem": {
   "proposed": "gCivilizationItem",
@@ -904,7 +1043,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "civilizationItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "clickedButton": {
   "proposed": "gClickedButton",
@@ -919,7 +1066,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "cREV": {
   "proposed": "gCREV",
@@ -940,7 +1088,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "curFrame": {
   "proposed": "gCurFrame",
@@ -955,7 +1104,8 @@
    "XTJSON/batch/Adventurer_sprite/scripts/Untitled_1__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "DemoList": {
   "proposed": "gDemoList",
@@ -970,7 +1120,8 @@
    "XTJSON/batch/CO_DemoReader_Main/Demolisher_0005a_Current/scripts/Demolisher__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "DemoSource": {
   "proposed": "gDemoSource",
@@ -985,7 +1136,8 @@
    "XTJSON/batch/CO_DemoReader_Main/Demolisher_0005a_Current/scripts/Demolisher__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "demosPath": {
   "proposed": "gDemosPath",
@@ -1000,7 +1152,8 @@
    "XTJSON/batch/CO_DemoReader_Main/CO_DemoReader Livecode/CO_DemoReader_Mainv0002a/scripts/CO_DemoReader_Main__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "educationItem": {
   "proposed": "gEducationItem",
@@ -1017,7 +1170,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "educationItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "firstFrame": {
   "proposed": "gFirstFrame",
@@ -1032,7 +1193,8 @@
    "XTJSON/batch/Adventurer_sprite/scripts/Untitled_1__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "foundFiles": {
   "proposed": "gFoundFiles",
@@ -1051,7 +1213,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gActor": {
   "proposed": "gActor",
@@ -1066,7 +1229,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gActorFrame": {
   "proposed": "gActorFrame",
@@ -1081,7 +1245,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gActorN": {
   "proposed": "gActorN",
@@ -1096,7 +1261,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "ganimationEnginePrefsPath": {
   "proposed": "gGanimationEnginePrefsPath",
@@ -1111,7 +1277,8 @@
    "XTJSON/batch/arcade_engine_6demo/animationEngine/scripts/animationEngine__button_1007_unlock.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gAnimDir": {
   "proposed": "gAnimDir",
@@ -1126,7 +1293,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gAnimN": {
   "proposed": "gAnimN",
@@ -1141,7 +1309,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gArrayRootLabel": {
   "proposed": "gArrayRootLabel",
@@ -1166,7 +1335,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gAssembly": {
   "proposed": "gAssembly",
@@ -1183,7 +1353,15 @@
   "comments": [
    "percentage state of base mobile production -- is this a float? maybe floor it"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gAssembly",
+   "comment": "percentage state of base mobile production -- is this a float? maybe floor it"
+  }
  },
  "gAttributesTable": {
   "proposed": "gAttributesTable",
@@ -1198,7 +1376,8 @@
    "XTJSON/batch/GAD_Inspector/scripts/GAD_Inspector__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gAutoVectorCommand": {
   "proposed": "gAutoVectorCommand",
@@ -1213,7 +1392,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBackViz": {
   "proposed": "gBackViz",
@@ -1232,7 +1412,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBaseDensityIndex": {
   "proposed": "gBaseDensityIndex",
@@ -1249,7 +1430,15 @@
   "comments": [
    "define map base density"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseDensityIndex",
+   "comment": "define map base density"
+  }
  },
  "gBasedMobileObjectsList": {
   "proposed": "gBasedMobileObjectsList",
@@ -1264,7 +1453,8 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBaseEntityProperties": {
   "proposed": "gBaseEntityProperties",
@@ -1281,7 +1471,8 @@
   "comments": [
    "- = \"uid,type,location,faction,patrols,build,assembly,population,production,prudence,civilization,motivation,education,l"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBaseList": {
   "proposed": "gBaseList",
@@ -1298,7 +1489,15 @@
   "comments": [
    "- total number of bases"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseList",
+   "comment": "- total number of bases"
+  }
  },
  "gBaseManagementItems": {
   "proposed": "gBaseManagementItems",
@@ -1315,7 +1514,15 @@
   "comments": [
    "- = \"population,production,prudence\""
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseManagementItems",
+   "comment": "- = \"population,production,prudence\""
+  }
  },
  "gBaseMapCenterX": {
   "proposed": "gBaseMapCenterX",
@@ -1332,7 +1539,15 @@
   "comments": [
    "- all base x coordinates summed and divided by number of bases"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseMapCenterX",
+   "comment": "- all base x coordinates summed and divided by number of bases"
+  }
  },
  "gBaseMapCenterXY": {
   "proposed": "gBaseMapCenterXY",
@@ -1349,7 +1564,15 @@
   "comments": [
    "- all base x,y coordinates summed and divided by number of bases"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseMapCenterXY",
+   "comment": "- all base x,y coordinates summed and divided by number of bases"
+  }
  },
  "gBaseMapCenterY": {
   "proposed": "gBaseMapCenterY",
@@ -1366,7 +1589,15 @@
   "comments": [
    "- all base y coordinates summed and divided by number of bases"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseMapCenterY",
+   "comment": "- all base y coordinates summed and divided by number of bases"
+  }
  },
  "gBaseProwlers": {
   "proposed": "gBaseProwlers",
@@ -1381,7 +1612,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseProwlers",
+   "comment": ""
+  }
  },
  "gBaseScriptText": {
   "proposed": "gBaseScriptText",
@@ -1396,7 +1635,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseScriptText",
+   "comment": ""
+  }
  },
  "gBaseStates": {
   "proposed": "gBaseStates",
@@ -1413,7 +1660,15 @@
   "comments": [
    "-- = \"civilization,motivation,education\""
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBaseStates",
+   "comment": "-- = \"civilization,motivation,education\""
+  }
  },
  "gBinaryString": {
   "proposed": "gBinaryString",
@@ -1431,7 +1686,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBinaryStringCopy": {
   "proposed": "gBinaryStringCopy",
@@ -1449,7 +1705,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBinaryStrings": {
   "proposed": "gBinaryStrings",
@@ -1468,7 +1725,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBottom": {
   "proposed": "gBottom",
@@ -1493,7 +1751,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBug": {
   "proposed": "gBug",
@@ -1508,7 +1767,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBug",
+   "comment": ""
+  }
  },
  "gBuild": {
   "proposed": "gBuild",
@@ -1525,7 +1792,15 @@
   "comments": [
    "ENUM of mobile type for base to produce, determined by d,s,e,o ie, 1,2,3,4"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gBuild",
+   "comment": "ENUM of mobile type for base to produce, determined by d,s,e,o ie, 1,2,3,4"
+  }
  },
  "gButtonPropertyBoolItems": {
   "proposed": "gButtonPropertyBoolItems",
@@ -1550,7 +1825,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gButtonPropertyGeometryFields": {
   "proposed": "gButtonPropertyGeometryFields",
@@ -1571,7 +1847,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBVH": {
   "proposed": "gBVH",
@@ -1586,7 +1863,8 @@
    "XTJSON/batch/Stick_Figure_Bubble_Man/scripts/Stick_Figure_Bubble_Man__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBVHChannelIndex": {
   "proposed": "gBVHChannelIndex",
@@ -1601,7 +1879,8 @@
    "XTJSON/batch/Stick_Figure_Bubble_Man/scripts/Stick_Figure_Bubble_Man__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBVHFrames": {
   "proposed": "gBVHFrames",
@@ -1616,7 +1895,8 @@
    "XTJSON/batch/Stick_Figure_Bubble_Man/scripts/Stick_Figure_Bubble_Man__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBVHJointOrder": {
   "proposed": "gBVHJointOrder",
@@ -1631,7 +1911,8 @@
    "XTJSON/batch/Stick_Figure_Bubble_Man/scripts/Stick_Figure_Bubble_Man__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gBVHMotion": {
   "proposed": "gBVHMotion",
@@ -1646,7 +1927,8 @@
    "XTJSON/batch/Stick_Figure_Bubble_Man/scripts/Stick_Figure_Bubble_Man__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCameraPitch": {
   "proposed": "gCameraPitch",
@@ -1680,7 +1962,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCameraVertices": {
   "proposed": "gCameraVertices",
@@ -1700,7 +1983,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCameraYaw": {
   "proposed": "gCameraYaw",
@@ -1734,7 +2018,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCardCount": {
   "proposed": "gCardCount",
@@ -1749,7 +2034,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCardPropertySets": {
   "proposed": "gCardPropertySets",
@@ -1770,7 +2056,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCast": {
   "proposed": "gCast",
@@ -1785,7 +2072,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCategory": {
   "proposed": "gCategory",
@@ -1800,7 +2088,8 @@
    "XTJSON/batch/MasterLists_02_09_2026_DND_DATAS_Not_List_removed/scripts/MasterLists__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCategoryFolder": {
   "proposed": "gCategoryFolder",
@@ -1815,7 +2104,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCategoryList": {
   "proposed": "gCategoryList",
@@ -1830,7 +2120,8 @@
    "XTJSON/batch/MasterLists_02_09_2026_DND_DATAS_Not_List_removed/scripts/MasterLists__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCenterObject": {
   "proposed": "gCenterObject",
@@ -1847,7 +2138,15 @@
   "comments": [
    "Object used to center the map, ie, any selected object during zoom"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gCenterObject",
+   "comment": "Object used to center the map, ie, any selected object during zoom"
+  }
  },
  "gChangedLabelsList": {
   "proposed": "gChangedLabelsList",
@@ -1873,7 +2172,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCivilization": {
   "proposed": "gCivilization",
@@ -1890,7 +2190,15 @@
   "comments": [
    "current state of base Population goal, influences Assembly & Life"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gCivilization",
+   "comment": "current state of base Population goal, influences Assembly & Life"
+  }
  },
  "gClickedObject": {
   "proposed": "gClickedObject",
@@ -1905,7 +2213,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gClickedObject",
+   "comment": ""
+  }
  },
  "gClickedTarget": {
   "proposed": "gClickedTarget",
@@ -1920,7 +2236,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gClickedTarget",
+   "comment": ""
+  }
  },
  "gColorChar": {
   "proposed": "gColorChar",
@@ -1937,7 +2261,8 @@
   "comments": [
    "- this is the color being drawn (1=black or 0=white)...but 255 chars could be used."
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gColorItems": {
   "proposed": "gColorItems",
@@ -1954,7 +2279,15 @@
   "comments": [
    "item string of colors used \"green,magenta,yellow,red,orange,cyan,darkorange,lightgreen,lightblue,pink,violet\""
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gColorItems",
+   "comment": "item string of colors used \"green,magenta,yellow,red,orange,cyan,darkorange,lightgreen,lightblue,pink,violet\""
+  }
  },
  "gConsoleOpenFiles": {
   "proposed": "gConsoleOpenFiles",
@@ -1971,7 +2304,8 @@
    "XTJSON/batch/rev/ig3d_MainUI050107/scripts/console__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentActor": {
   "proposed": "gCurrentActor",
@@ -1986,7 +2320,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentAnim": {
   "proposed": "gCurrentAnim",
@@ -2001,7 +2336,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentArrayKeyHasGUI": {
   "proposed": "gCurrentArrayKeyHasGUI",
@@ -2022,7 +2358,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentAsciiVal": {
   "proposed": "gCurrentAsciiVal",
@@ -2040,7 +2377,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentCard": {
   "proposed": "gCurrentCard",
@@ -2055,7 +2393,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentChar": {
   "proposed": "gCurrentChar",
@@ -2072,7 +2411,8 @@
   "comments": [
    "- current color character"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentCharacter": {
   "proposed": "gCurrentCharacter",
@@ -2090,7 +2430,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentCharacterImage": {
   "proposed": "gCurrentCharacterImage",
@@ -2108,7 +2449,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentCheese": {
   "proposed": "gCurrentCheese",
@@ -2123,7 +2465,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentDescription": {
   "proposed": "gCurrentDescription",
@@ -2149,7 +2492,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentDirectory": {
   "proposed": "gCurrentDirectory",
@@ -2167,7 +2511,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentEditIndexLabel": {
   "proposed": "gCurrentEditIndexLabel",
@@ -2182,7 +2527,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gCurrentEditIndexLabel",
+   "comment": ""
+  }
  },
  "gCurrentEntity": {
   "proposed": "gCurrentEntity",
@@ -2200,7 +2553,8 @@
    "XTJSON/batch/Enochian_Livecode/enochian_watchtowers_06252025_134PM_safe/enochian_watchtowers_924AM_09252025/scripts/Enochian_watchtowers__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentFileList": {
   "proposed": "gCurrentFileList",
@@ -2226,7 +2580,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentFilePath": {
   "proposed": "gCurrentFilePath",
@@ -2247,7 +2602,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentFileText": {
   "proposed": "gCurrentFileText",
@@ -2268,7 +2624,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentFolderPath": {
   "proposed": "gCurrentFolderPath",
@@ -2289,7 +2646,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentFont": {
   "proposed": "gCurrentFont",
@@ -2307,7 +2665,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentFontFolder": {
   "proposed": "gCurrentFontFolder",
@@ -2327,7 +2686,8 @@
   "comments": [
    "where multiple files are being saved to"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentFrame": {
   "proposed": "gCurrentFrame",
@@ -2350,7 +2710,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentGame": {
   "proposed": "gCurrentGame",
@@ -2367,7 +2728,8 @@
   "comments": [
    "was set Global once in Game.Select and never used or accesible?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentGlobal": {
   "proposed": "gCurrentGlobal",
@@ -2382,7 +2744,8 @@
    "XTJSON/batch/GAD_Globals/scripts/GAD_Globals__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentKeyIndex": {
   "proposed": "gCurrentKeyIndex",
@@ -2406,7 +2769,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentLabelArray": {
   "proposed": "gCurrentLabelArray",
@@ -2432,7 +2796,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentLabelArrayKeys": {
   "proposed": "gCurrentLabelArrayKeys",
@@ -2458,7 +2823,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentLabelsList": {
   "proposed": "gCurrentLabelsList",
@@ -2484,7 +2850,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentOutline": {
   "proposed": "gCurrentOutline",
@@ -2510,7 +2877,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentPlayerBaseLine": {
   "proposed": "gCurrentPlayerBaseLine",
@@ -2527,7 +2895,15 @@
   "comments": [
    "-- UNUSED But Init"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gCurrentPlayerBaseLine",
+   "comment": "-- UNUSED But Init"
+  }
  },
  "gCurrentPropertiesStates": {
   "proposed": "gCurrentPropertiesStates",
@@ -2548,7 +2924,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentPropertySet": {
   "proposed": "gCurrentPropertySet",
@@ -2574,7 +2951,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentRandomLine": {
   "proposed": "gCurrentRandomLine",
@@ -2591,7 +2969,15 @@
   "comments": [
    "current line used in the random numbers list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gCurrentRandomLine",
+   "comment": "current line used in the random numbers list"
+  }
  },
  "gCurrentSelection": {
   "proposed": "gCurrentSelection",
@@ -2609,7 +2995,8 @@
    "XTJSON/batch/Enochian_Livecode/enochian_watchtowers_06252025_134PM_safe/enochian_watchtowers_924AM_09252025/scripts/Enochian_watchtowers__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentTrack": {
   "proposed": "gCurrentTrack",
@@ -2628,7 +3015,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentUIObjectIndex": {
   "proposed": "gCurrentUIObjectIndex",
@@ -2649,7 +3037,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentUITarget": {
   "proposed": "gCurrentUITarget",
@@ -2670,7 +3059,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrentWorld": {
   "proposed": "gCurrentWorld",
@@ -2687,7 +3077,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gCurrrentFolder": {
   "proposed": "gCurrrentFolder",
@@ -2713,7 +3104,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gDate": {
   "proposed": "gDate",
@@ -2728,7 +3120,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gDate",
+   "comment": ""
+  }
  },
  "gDebug": {
   "proposed": "gDebug",
@@ -2765,7 +3165,15 @@
    "makes it easier to find my while bug hunting",
    "long string of debug text"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gDebug",
+   "comment": "long string of debug text"
+  }
  },
  "gDebugFilePath": {
   "proposed": "gDebugFilePath",
@@ -2780,7 +3188,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gDebugFilePath",
+   "comment": ""
+  }
  },
  "gDebugIgnoreItems": {
   "proposed": "gDebugIgnoreItems",
@@ -2795,7 +3211,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gDebugIgnoreItems",
+   "comment": ""
+  }
  },
  "gDefaultBase": {
   "proposed": "gDefaultBase",
@@ -2812,7 +3236,8 @@
   "comments": [
    "-- DEPRECATE -1-25-2024 CLEAN 4 uses"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gDefaultDirectory": {
   "proposed": "gDefaultDirectory",
@@ -2827,7 +3252,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gDefaultDirectory",
+   "comment": ""
+  }
  },
  "gDelay": {
   "proposed": "gDelay",
@@ -2846,7 +3279,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gDelayFactor": {
   "proposed": "gDelayFactor",
@@ -2861,7 +3295,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gDelayTime": {
   "proposed": "gDelayTime",
@@ -2876,7 +3311,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gDeprecateHandlerPath": {
   "proposed": "gDeprecateHandlerPath",
@@ -2891,7 +3327,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gDeprecateHandlerPath",
+   "comment": ""
+  }
  },
  "gDirectionsTried": {
   "proposed": "gDirectionsTried",
@@ -2908,7 +3352,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gDirSafeTime": {
   "proposed": "gDirSafeTime",
@@ -2923,7 +3368,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gDirSafeTime",
+   "comment": ""
+  }
  },
  "gDrawnodePathBool": {
   "proposed": "gDrawnodePathBool",
@@ -2938,7 +3391,8 @@
    "XTJSON/batch/GAD_SendTo_And_Zoom_NODES/scripts/GAD_SendTo_And_Zoom__card_1002.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gDrawStarPathBool": {
   "proposed": "gDrawStarPathBool",
@@ -2955,7 +3409,8 @@
   "comments": [
    "DEPRECATE, REPLACE WITH bDrawStarPathBool in 4 scripts 1-25-2024"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gEdApplyScript": {
   "proposed": "gEdApplyScript",
@@ -2970,7 +3425,8 @@
    "LIB_SCRIPTBLOCKS/livecode/ScriptBlocks.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gEditHistoryList": {
   "proposed": "gEditHistoryList",
@@ -2985,7 +3441,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gEditHistoryList",
+   "comment": ""
+  }
  },
  "gEditorState": {
   "proposed": "gEditorState",
@@ -3000,7 +3464,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gEducation": {
   "proposed": "gEducation",
@@ -3017,7 +3482,15 @@
   "comments": [
    "current state of base Prudence goal, influences Assembly & Level Up"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gEducation",
+   "comment": "current state of base Prudence goal, influences Assembly & Level Up"
+  }
  },
  "gEmptyPathGlobalsScript": {
   "proposed": "gEmptyPathGlobalsScript",
@@ -3034,7 +3507,15 @@
   "comments": [
    "UNUSED 1-25-2024"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gEmptyPathGlobalsScript",
+   "comment": "UNUSED 1-25-2024"
+  }
  },
  "gEnterTextBool": {
   "proposed": "gEnterTextBool",
@@ -3051,7 +3532,8 @@
   "comments": [
    "for passing rawkeydown when entering text"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gErrorDirection": {
   "proposed": "gErrorDirection",
@@ -3066,7 +3548,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gErrorDirection",
+   "comment": ""
+  }
  },
  "gErrorIndent": {
   "proposed": "gErrorIndent",
@@ -3081,7 +3571,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gErrorIndent",
+   "comment": ""
+  }
  },
  "gErrorIndentSpace": {
   "proposed": "gErrorIndentSpace",
@@ -3096,7 +3594,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gErrorIndentSpace",
+   "comment": ""
+  }
  },
  "gErrorSourceHandler": {
   "proposed": "gErrorSourceHandler",
@@ -3111,7 +3617,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gErrorSourceHandler",
+   "comment": ""
+  }
  },
  "gErrorSourceLabel": {
   "proposed": "gErrorSourceLabel",
@@ -3126,7 +3640,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gErrorSourceLabel",
+   "comment": ""
+  }
  },
  "gErrorText": {
   "proposed": "gErrorText",
@@ -3143,7 +3665,15 @@
   "comments": [
    "complete string of current argument details"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gErrorText",
+   "comment": "complete string of current argument details"
+  }
  },
  "gErrorType": {
   "proposed": "gErrorType",
@@ -3160,7 +3690,15 @@
   "comments": [
    "debug info such as \"ARGUMENT IS EMPTY\""
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gErrorType",
+   "comment": "debug info such as \"ARGUMENT IS EMPTY\""
+  }
  },
  "gFavList": {
   "proposed": "gFavList",
@@ -3175,7 +3713,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFavoritesFolder": {
   "proposed": "gFavoritesFolder",
@@ -3190,7 +3729,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFilteredGlobalNames": {
   "proposed": "gFilteredGlobalNames",
@@ -3205,7 +3745,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gFilteredGlobalNames",
+   "comment": ""
+  }
  },
  "gFilterGlobalNames": {
   "proposed": "gFilterGlobalNames",
@@ -3220,7 +3768,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gFilterGlobalNames",
+   "comment": ""
+  }
  },
  "gFindWhat": {
   "proposed": "gFindWhat",
@@ -3237,7 +3793,8 @@
    "XTJSON/batch/rev/ig3d_MainUI050107/scripts/Find_T3D__group_1053_replace.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelArray": {
   "proposed": "gFirstLevelArray",
@@ -3263,7 +3820,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelArrayKey": {
   "proposed": "gFirstLevelArrayKey",
@@ -3289,7 +3847,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelArraykeys": {
   "proposed": "gFirstLevelArraykeys",
@@ -3315,7 +3874,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelArrayLabel": {
   "proposed": "gFirstLevelArrayLabel",
@@ -3330,7 +3890,8 @@
    "XTJSON/batch/GenericaProperties_02042024A/GenericaProperties_02042024A/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelArrayName": {
   "proposed": "gFirstLevelArrayName",
@@ -3356,7 +3917,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelFile": {
   "proposed": "gFirstLevelFile",
@@ -3382,7 +3944,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelFilePath": {
   "proposed": "gFirstLevelFilePath",
@@ -3408,7 +3971,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelFolder": {
   "proposed": "gFirstLevelFolder",
@@ -3434,7 +3998,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelFolderArray": {
   "proposed": "gFirstLevelFolderArray",
@@ -3460,7 +4025,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelFolderArrayLabel": {
   "proposed": "gFirstLevelFolderArrayLabel",
@@ -3485,7 +4051,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelFolderPath": {
   "proposed": "gFirstLevelFolderPath",
@@ -3511,7 +4078,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelSubArray": {
   "proposed": "gFirstLevelSubArray",
@@ -3536,7 +4104,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelSubArrayLabel": {
   "proposed": "gFirstLevelSubArrayLabel",
@@ -3561,7 +4130,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFirstLevelText": {
   "proposed": "gFirstLevelText",
@@ -3587,7 +4157,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFocalLength": {
   "proposed": "gFocalLength",
@@ -3607,7 +4178,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFolderOptionItems": {
   "proposed": "gFolderOptionItems",
@@ -3622,7 +4194,8 @@
    "XTJSON/batch/ImageOrganizer_03222025b/scripts/ImageOrganizer_02102025__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFoundGlobals": {
   "proposed": "gFoundGlobals",
@@ -3648,7 +4221,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFrame": {
   "proposed": "gFrame",
@@ -3663,7 +4237,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFrameCount": {
   "proposed": "gFrameCount",
@@ -3682,7 +4257,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFrameData": {
   "proposed": "gFrameData",
@@ -3697,7 +4273,8 @@
    "XTJSON/batch/Stick_Figure_Bubble_Man/scripts/Stick_Figure_Bubble_Man__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFrameN": {
   "proposed": "gFrameN",
@@ -3712,7 +4289,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gFrameworkArray": {
   "proposed": "gFrameworkArray",
@@ -3738,7 +4316,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGameBrowserLauncher": {
   "proposed": "gGameBrowserLauncher",
@@ -3753,7 +4332,8 @@
    "LIB_DEV/livecode/game_browser.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGameDescriptionsArray": {
   "proposed": "gGameDescriptionsArray",
@@ -3774,7 +4354,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGameObjectBaseArray": {
   "proposed": "gGameObjectBaseArray",
@@ -3789,7 +4370,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectBaseArray",
+   "comment": ""
+  }
  },
  "gGameObjectData": {
   "proposed": "gGameObjectData",
@@ -3808,7 +4397,15 @@
    "if gGameObjectData is an array, gGameObjectData is the value item string representing items of gGameObjectProperties",
    "an ARRAY or item string of the game object properties"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectData",
+   "comment": "an ARRAY or item string of the game object properties"
+  }
  },
  "gGameObjectDataKeys": {
   "proposed": "gGameObjectDataKeys",
@@ -3823,7 +4420,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectDataKeys",
+   "comment": ""
+  }
  },
  "gGameObjectIndexLabel": {
   "proposed": "gGameObjectIndexLabel",
@@ -3842,7 +4447,15 @@
    "-DEPRECATE b_001 etc, DEPRECATE for gGameObjectIndexLabel",
    "the name of the object \"b_001\" etc REPLACE  gGameObjectIndexLabel gMobileIndexLabel  etc"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectIndexLabel",
+   "comment": "the name of the object \"b_001\" etc REPLACE gGameObjectIndexLabel gMobileIndexLabel etc"
+  }
  },
  "gGameObjectProperties": {
   "proposed": "gGameObjectProperties",
@@ -3860,7 +4473,15 @@
    "REPLACE gGameObjectProperties ??? MANY LINES TO FIX",
    "- = \"ID,type,x,y,parent,build,assembly,population,production,prudence,civilization,motivation,education,level,life,sendt"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectProperties",
+   "comment": "- = \"ID,type,x,y,parent,build,assembly,population,production,prudence,civilization,motivation,education,level,life,sendto\""
+  }
  },
  "gGameObjectsCount": {
   "proposed": "gGameObjectsCount",
@@ -3877,7 +4498,15 @@
   "comments": [
    "Total number of game objects created (9 lines)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectsCount",
+   "comment": "Total number of game objects created (9 lines)"
+  }
  },
  "gGameObjectSelectables": {
   "proposed": "gGameObjectSelectables",
@@ -3894,7 +4523,8 @@
   "comments": [
    "DEPRECATE??? 1-25-2024 REPLACE 9 lines maybe use a bool property of object? enum?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGameObjectsSelectableItems": {
   "proposed": "gGameObjectsSelectableItems",
@@ -3911,7 +4541,15 @@
   "comments": [
    "game objects that result in some action when selected (by map click, or list click!!)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectsSelectableItems",
+   "comment": "game objects that result in some action when selected (by map click, or list click!!)"
+  }
  },
  "gGameObjectStatus": {
   "proposed": "gGameObjectStatus",
@@ -3926,7 +4564,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectStatus",
+   "comment": ""
+  }
  },
  "gGameObjectType": {
   "proposed": "gGameObjectType",
@@ -3943,7 +4589,15 @@
   "comments": [
    "ENUM game object property , item offset of gGameObjectTypes, USED??? NOT YET MAYBE?? 1-25-2025"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectType",
+   "comment": "ENUM game object property , item offset of gGameObjectTypes, USED??? NOT YET MAYBE?? 1-25-2025"
+  }
  },
  "gGameObjectTypeData": {
   "proposed": "gGameObjectTypeData",
@@ -3960,7 +4614,15 @@
   "comments": [
    "current customPropertySet of the stack used to store the various data \"base,mobile,defense,path\" etc"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectTypeData",
+   "comment": "current customPropertySet of the stack used to store the various data \"base,mobile,defense,path\" etc"
+  }
  },
  "gGameObjectTypeGlobalPrefix": {
   "proposed": "gGameObjectTypeGlobalPrefix",
@@ -3977,7 +4639,15 @@
   "comments": [
    "\"g\" + some text to define globals , 'gGameObject\" etc"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectTypeGlobalPrefix",
+   "comment": "\"g\" + some text to define globals , 'gGameObject\" etc"
+  }
  },
  "gGameObjectTypeLabel": {
   "proposed": "gGameObjectTypeLabel",
@@ -3994,7 +4664,15 @@
   "comments": [
    "DEPRECATE REPLACE with gGameObjectTypeLabel"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectTypeLabel",
+   "comment": ""
+  }
  },
  "gGameObjectTypePrefix": {
   "proposed": "gGameObjectTypePrefix",
@@ -4011,7 +4689,15 @@
   "comments": [
    "first character of game object type label required for custom property labels"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectTypePrefix",
+   "comment": "first character of game object type label required for custom property labels"
+  }
  },
  "gGameObjectTypes": {
   "proposed": "gGameObjectTypes",
@@ -4029,7 +4715,15 @@
    "all object Type labels in project ie, \"base,centerxy,mobile,sendto,path,slider\" etc",
    "all object Type labels in project ie, \"base,centerxy,mobile,sendto,path,slider\" etc"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectTypes",
+   "comment": "all object Type labels in project ie, \"base,centerxy,mobile,sendto,path,slider\" etc"
+  }
  },
  "gGameObjectUndoData": {
   "proposed": "gGameObjectUndoData",
@@ -4044,7 +4738,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjectUndoData",
+   "comment": ""
+  }
  },
  "gGameObjecTypeLabel": {
   "proposed": "gGameObjecTypeLabel",
@@ -4061,7 +4763,15 @@
   "comments": [
    "item gGameObjectType of gGameObjectTypes -- used 20+ times give or take (s)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameObjecTypeLabel",
+   "comment": "item gGameObjectType of gGameObjectTypes -- used 20+ times give or take (s)"
+  }
  },
  "gGameTool": {
   "proposed": "gGameTool",
@@ -4080,7 +4790,15 @@
   "comments": [
    "the tool being used to manipulate/select/draw data: base, mobile, path, sendto, rendezvous"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameTool",
+   "comment": "the tool being used to manipulate/select/draw data: base, mobile, path, sendto, rendezvous"
+  }
  },
  "gGameTurn": {
   "proposed": "gGameTurn",
@@ -4097,7 +4815,15 @@
   "comments": [
    "current game turn"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGameTurn",
+   "comment": "current game turn"
+  }
  },
  "gGetGameObjectPropertiesArguments": {
   "proposed": "gGetGameObjectPropertiesArguments",
@@ -4112,7 +4838,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGetGameObjectPropertiesArguments",
+   "comment": ""
+  }
  },
  "gGlob": {
   "proposed": "gGlob",
@@ -4137,7 +4871,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGlobalDefinitions": {
   "proposed": "gGlobalDefinitions",
@@ -4152,7 +4887,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGlobalDefinitions",
+   "comment": ""
+  }
  },
  "gGlobalInitBuild": {
   "proposed": "gGlobalInitBuild",
@@ -4178,7 +4921,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGlobalInitBuildHeader": {
   "proposed": "gGlobalInitBuildHeader",
@@ -4204,7 +4948,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGlobalInitCatch": {
   "proposed": "gGlobalInitCatch",
@@ -4230,7 +4975,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGlobalItemsList": {
   "proposed": "gGlobalItemsList",
@@ -4247,7 +4993,15 @@
   "comments": [
    "developer utility for generating globals and inits for all game object property globals -- ???DEPRECATE???"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGlobalItemsList",
+   "comment": "developer utility for generating globals and inits for all game object property globals -- ???DEPRECATE???"
+  }
  },
  "gGlobalItemsNames": {
   "proposed": "gGlobalItemsNames",
@@ -4264,7 +5018,15 @@
   "comments": [
    "developer utility ERROR returned BY BROKEN FUNCTION GetUnitGlobalName should be something like \"gBasePopulation\"??"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGlobalItemsNames",
+   "comment": "developer utility ERROR returned BY BROKEN FUNCTION GetUnitGlobalName should be something like \"gBasePopulation\"??"
+  }
  },
  "gGlobalList": {
   "proposed": "gGlobalList",
@@ -4290,7 +5052,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGlobalPrefixChar": {
   "proposed": "gGlobalPrefixChar",
@@ -4316,7 +5079,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGlobalPrefixIgnoreList": {
   "proposed": "gGlobalPrefixIgnoreList",
@@ -4342,7 +5106,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGlobalsList": {
   "proposed": "gGlobalsList",
@@ -4357,7 +5122,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGlobalsList",
+   "comment": ""
+  }
  },
  "gGlobalUseList": {
   "proposed": "gGlobalUseList",
@@ -4372,7 +5145,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gGlobalUseList",
+   "comment": ""
+  }
  },
  "gGrid": {
   "proposed": "gGrid",
@@ -4389,7 +5170,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridBit": {
   "proposed": "gGridBit",
@@ -4407,7 +5189,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridColumns": {
   "proposed": "gGridColumns",
@@ -4424,7 +5207,8 @@
   "comments": [
    "- total columns and/or rows of grid"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridHeight": {
   "proposed": "gGridHeight",
@@ -4441,7 +5225,8 @@
   "comments": [
    "- width and/or height of object /gGridColumns or gGridRows"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridRows": {
   "proposed": "gGridRows",
@@ -4458,7 +5243,8 @@
   "comments": [
    "- total columns and/or rows of grid"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridScale": {
   "proposed": "gGridScale",
@@ -4473,7 +5259,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridSize": {
   "proposed": "gGridSize",
@@ -4488,7 +5275,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridWidth": {
   "proposed": "gGridWidth",
@@ -4506,7 +5294,8 @@
   "comments": [
    "- width and/or height of object /gGridColumns or gGridRows"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridX": {
   "proposed": "gGridX",
@@ -4523,7 +5312,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gGridY": {
   "proposed": "gGridY",
@@ -4540,7 +5330,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gHandlerEditCount": {
   "proposed": "gHandlerEditCount",
@@ -4555,7 +5346,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gHandlerEditCount",
+   "comment": ""
+  }
  },
  "gHandlerPrefix": {
   "proposed": "gHandlerPrefix",
@@ -4583,7 +5382,15 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gHandlerPrefix",
+   "comment": ""
+  }
  },
  "gHandlerSuffix": {
   "proposed": "gHandlerSuffix",
@@ -4611,7 +5418,15 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gHandlerSuffix",
+   "comment": ""
+  }
  },
  "gHandlerVisitedCount": {
   "proposed": "gHandlerVisitedCount",
@@ -4626,7 +5441,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gHandlerVisitedCount",
+   "comment": ""
+  }
  },
  "gHandlerVistedCount": {
   "proposed": "gHandlerVistedCount",
@@ -4641,7 +5464,8 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gHeight": {
   "proposed": "gHeight",
@@ -4666,7 +5490,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gHighLayer": {
   "proposed": "gHighLayer",
@@ -4685,7 +5510,8 @@
    "XTJSON/batch/Enochian_Livecode/enochian_watchtowers_06252025_134PM_safe/enochian_watchtowers_924AM_09252025/scripts/Enochian_watchtowers__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gHistory": {
   "proposed": "gHistory",
@@ -4702,7 +5528,8 @@
    "XTJSON/batch/rev/ig3d_MainUI050107/scripts/console__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gHistoryRedo": {
   "proposed": "gHistoryRedo",
@@ -4717,7 +5544,8 @@
    "XTJSON/batch/rev/ig3d_MainUI050107/scripts/console__field_1375_editField.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gID": {
   "proposed": "gID",
@@ -4734,7 +5562,15 @@
   "comments": [
    "3 digit numeric index of game object determined at their creation time"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gID",
+   "comment": "3 digit numeric index of game object determined at their creation time"
+  }
  },
  "gImagePBMBinaryData": {
   "proposed": "gImagePBMBinaryData",
@@ -4751,7 +5587,8 @@
   "comments": [
    "- a string of 1s and 0s representing black and white image"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gInitBuild": {
   "proposed": "gInitBuild",
@@ -4777,7 +5614,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gInitGlobalScript": {
   "proposed": "gInitGlobalScript",
@@ -4794,7 +5632,15 @@
   "comments": [
    "UNUSED DELETE 4 lines"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gInitGlobalScript",
+   "comment": "UNUSED DELETE 4 lines"
+  }
  },
  "gInitPropertyItemOffsetDefaultValues": {
   "proposed": "gInitPropertyItemOffsetDefaultValues",
@@ -4809,7 +5655,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gInitPropertyItemOffsetDefaultValues",
+   "comment": ""
+  }
  },
  "gInserGlobalCardScript": {
   "proposed": "gInserGlobalCardScript",
@@ -4824,7 +5678,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gInserGlobalCardScript",
+   "comment": ""
+  }
  },
  "gInventory": {
   "proposed": "gInventory",
@@ -4839,7 +5701,8 @@
    "XTJSON/batch/TTRPG_STUDIO_020920229AM/scripts/TTRPGtudioapilib_02092026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gKeyboardInputPlayBackDelay": {
   "proposed": "gKeyboardInputPlayBackDelay",
@@ -4854,7 +5717,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLabelsDescription": {
   "proposed": "gLabelsDescription",
@@ -4875,7 +5739,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLabelsDescriptionText": {
   "proposed": "gLabelsDescriptionText",
@@ -4896,7 +5761,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLabelsFilesList": {
   "proposed": "gLabelsFilesList",
@@ -4917,7 +5783,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLastArrowKey": {
   "proposed": "gLastArrowKey",
@@ -4936,7 +5803,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLastClick": {
   "proposed": "gLastClick",
@@ -4959,7 +5827,8 @@
    "XTJSON/batch/Scott_Rossi_Stacks_Perhaps_question_mark/Calendar/scripts/MediumCalendar__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLastdir": {
   "proposed": "gLastdir",
@@ -4974,7 +5843,8 @@
    "XTJSON/batch/rev/ig3d_MainUI050107/scripts/console__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLeft": {
   "proposed": "gLeft",
@@ -4999,7 +5869,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLevel": {
   "proposed": "gLevel",
@@ -5016,7 +5887,15 @@
   "comments": [
    "level of game object determined at time of creation (or raised by factors)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gLevel",
+   "comment": "level of game object determined at time of creation (or raised by factors)"
+  }
  },
  "gLevelUp": {
   "proposed": "gLevelUp",
@@ -5033,7 +5912,15 @@
   "comments": [
    "amount of change to level each turn , varies by how high prudence is, maybe a factor of Population?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gLevelUp",
+   "comment": "amount of change to level each turn , varies by how high prudence is, maybe a factor of Population?"
+  }
  },
  "gLife": {
   "proposed": "gLife",
@@ -5050,7 +5937,15 @@
   "comments": [
    "life/health of game object used to determine results of combat, ie base population / mobile resilence"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gLife",
+   "comment": "life/health of game object used to determine results of combat, ie base population / mobile resilence"
+  }
  },
  "gLinkHead": {
   "proposed": "gLinkHead",
@@ -5065,7 +5960,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gList": {
   "proposed": "gList",
@@ -5086,7 +5982,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLocationsA": {
   "proposed": "gLocationsA",
@@ -5103,7 +6000,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLogSelection": {
   "proposed": "gLogSelection",
@@ -5125,7 +6023,8 @@
   "comments": [
    "set true to log UpdateSelectionMarker diagnostics into gSelectionHistory"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLoopEnd": {
   "proposed": "gLoopEnd",
@@ -5140,7 +6039,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gLoopStart": {
   "proposed": "gLoopStart",
@@ -5155,7 +6055,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMapCenterX": {
   "proposed": "gMapCenterX",
@@ -5174,7 +6075,15 @@
   "comments": [
    "X loc of object used for zooming"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMapCenterX",
+   "comment": "X loc of object used for zooming"
+  }
  },
  "gMapCenterY": {
   "proposed": "gMapCenterY",
@@ -5193,7 +6102,15 @@
   "comments": [
    "Y loc of object used for zooming"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMapCenterY",
+   "comment": "Y loc of object used for zooming"
+  }
  },
  "gMapComplexity": {
   "proposed": "gMapComplexity",
@@ -5208,7 +6125,8 @@
    "XTJSON/batch/GAD_SendTo_And_Zoom_NODES/scripts/GAD_SendTo_And_Zoom__card_1002.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMapDensity": {
   "proposed": "gMapDensity",
@@ -5223,7 +6141,8 @@
    "XTJSON/batch/GAD_SendTo_And_Zoom_NODES/scripts/GAD_SendTo_And_Zoom__card_1002.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMapDensityStep": {
   "proposed": "gMapDensityStep",
@@ -5240,7 +6159,15 @@
   "comments": [
    "define steps between map sectors ie, -1024 to 1024 setep 16, etc"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMapDensityStep",
+   "comment": "define steps between map sectors ie, -1024 to 1024 setep 16, etc"
+  }
  },
  "gMapX": {
   "proposed": "gMapX",
@@ -5257,7 +6184,15 @@
   "comments": [
    "X center of map determined by group \"map\" or whatever is chosen as game frame"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMapX",
+   "comment": "X center of map determined by group \"map\" or whatever is chosen as game frame"
+  }
  },
  "gMapY": {
   "proposed": "gMapY",
@@ -5274,7 +6209,15 @@
   "comments": [
    "Y center of map determined by group \"map\" or whatever is chosen as game frame"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMapY",
+   "comment": "Y center of map determined by group \"map\" or whatever is chosen as game frame"
+  }
  },
  "gMenuPicked": {
   "proposed": "gMenuPicked",
@@ -5293,7 +6236,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMeshCache": {
   "proposed": "gMeshCache",
@@ -5316,7 +6260,8 @@
   "comments": [
    "cached meshes, see Mesh.Build"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMeshEdges": {
   "proposed": "gMeshEdges",
@@ -5336,7 +6281,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMeshFaces": {
   "proposed": "gMeshFaces",
@@ -5356,7 +6302,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMeshVertices": {
   "proposed": "gMeshVertices",
@@ -5376,7 +6323,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMobileAllDataArray": {
   "proposed": "gMobileAllDataArray",
@@ -5391,7 +6339,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobileAllDataArray",
+   "comment": ""
+  }
  },
  "gMobileData": {
   "proposed": "gMobileData",
@@ -5408,7 +6364,15 @@
   "comments": [
    "gGameObjectData of of mobile object, USED A LOT -- maybe deprecate?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobileData",
+   "comment": "gGameObjectData of of mobile object, USED A LOT -- maybe deprecate?"
+  }
  },
  "gMobileEntityProperties": {
   "proposed": "gMobileEntityProperties",
@@ -5425,7 +6389,8 @@
   "comments": [
    "- = \"uid,type,location,faction,patrols,path,progress,population,protection,projection,civilization,motivation,education,"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMobileID": {
   "proposed": "gMobileID",
@@ -5440,7 +6405,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobileID",
+   "comment": ""
+  }
  },
  "gMobileIndexLabel": {
   "proposed": "gMobileIndexLabel",
@@ -5457,7 +6430,15 @@
   "comments": [
    "gGameObjectIndexLabel of gameobject, ie, m_001 -- maybe deprecate?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobileIndexLabel",
+   "comment": "gGameObjectIndexLabel of gameobject, ie, m_001 -- maybe deprecate?"
+  }
  },
  "gMobileList": {
   "proposed": "gMobileList",
@@ -5472,7 +6453,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobileList",
+   "comment": ""
+  }
  },
  "gMobileObjectstList": {
   "proposed": "gMobileObjectstList",
@@ -5489,7 +6478,15 @@
   "comments": [
    "all mobile objects"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobileObjectstList",
+   "comment": "all mobile objects"
+  }
  },
  "gMobilePathIndex": {
   "proposed": "gMobilePathIndex",
@@ -5506,7 +6503,15 @@
   "comments": [
    "name of the path being manipulated, alteration of source mobile, ie, m_001 = p_001"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobilePathIndex",
+   "comment": "name of the path being manipulated, alteration of source mobile, ie, m_001 = p_001"
+  }
  },
  "gMobilePathIndexLabel": {
   "proposed": "gMobilePathIndexLabel",
@@ -5521,7 +6526,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobilePathIndexLabel",
+   "comment": ""
+  }
  },
  "gMobilePathPoints": {
   "proposed": "gMobilePathPoints",
@@ -5538,7 +6551,15 @@
   "comments": [
    "current path points being edited or iterated over for movement"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobilePathPoints",
+   "comment": "current path points being edited or iterated over for movement"
+  }
  },
  "gMobilesList": {
   "proposed": "gMobilesList",
@@ -5555,7 +6576,15 @@
   "comments": [
    "filtered list of mobile gameobjects to iterate over, filter for mobile class, ie, d,o,e,s"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobilesList",
+   "comment": "filtered list of mobile gameobjects to iterate over, filter for mobile class, ie, d,o,e,s"
+  }
  },
  "gMobileTypeIndexLabel": {
   "proposed": "gMobileTypeIndexLabel",
@@ -5570,7 +6599,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobileTypeIndexLabel",
+   "comment": ""
+  }
  },
  "gMobileTypesPrefixItems": {
   "proposed": "gMobileTypesPrefixItems",
@@ -5585,7 +6622,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMobileTypesPrefixItems",
+   "comment": ""
+  }
  },
  "gMotivation": {
   "proposed": "gMotivation",
@@ -5602,7 +6647,15 @@
   "comments": [
    "current state of base Production goal"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gMotivation",
+   "comment": "current state of base Production goal"
+  }
  },
  "gMouseDeltaX": {
   "proposed": "gMouseDeltaX",
@@ -5622,7 +6675,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMouseDeltaY": {
   "proposed": "gMouseDeltaY",
@@ -5642,7 +6696,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMouseLookLastH": {
   "proposed": "gMouseLookLastH",
@@ -5662,7 +6717,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMouseLookLastV": {
   "proposed": "gMouseLookLastV",
@@ -5682,7 +6738,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMouseLookSensitivity": {
   "proposed": "gMouseLookSensitivity",
@@ -5702,7 +6759,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMousemOveCount": {
   "proposed": "gMousemOveCount",
@@ -5719,7 +6777,8 @@
   "comments": [
    "UNUSED FOR MOUSE DRAG SCROLLING ---- UNUSED"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gMsgs": {
   "proposed": "gMsgs",
@@ -5736,7 +6795,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gNearPlane": {
   "proposed": "gNearPlane",
@@ -5756,7 +6816,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gNodeLabelsLabel": {
   "proposed": "gNodeLabelsLabel",
@@ -5781,7 +6842,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gNodeLabelsList": {
   "proposed": "gNodeLabelsList",
@@ -5806,7 +6868,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gNoMouse": {
   "proposed": "gNoMouse",
@@ -5826,7 +6889,8 @@
    "true while an AI tests: never grab or move the owner's mouse",
    "true while an AI tests: aim by facing, never read the mouse"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gNPCA": {
   "proposed": "gNPCA",
@@ -5843,7 +6907,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gNumberOfButtonRows": {
   "proposed": "gNumberOfButtonRows",
@@ -5858,7 +6923,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gNumberOfButtonRows",
+   "comment": ""
+  }
  },
  "gNumberOfButtons": {
   "proposed": "gNumberOfButtons",
@@ -5875,7 +6948,15 @@
   "comments": [
    "Saturday, January 27, 2024 8:24:10 AM"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gNumberOfButtons",
+   "comment": ""
+  }
  },
  "gNumberOfCommands": {
   "proposed": "gNumberOfCommands",
@@ -5890,7 +6971,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gNumberOfCommands",
+   "comment": ""
+  }
  },
  "gNumberOfFilesToImport": {
   "proposed": "gNumberOfFilesToImport",
@@ -5905,7 +6994,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gNumberOfGameObjects": {
   "proposed": "gNumberOfGameObjects",
@@ -5922,7 +7012,15 @@
   "comments": [
    "Total number of game objects created (7 lines)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gNumberOfGameObjects",
+   "comment": "Total number of game objects created (7 lines)"
+  }
  },
  "gNumberOfPlayers": {
   "proposed": "gNumberOfPlayers",
@@ -5939,7 +7037,15 @@
   "comments": [
    "number of active players (human & AI)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gNumberOfPlayers",
+   "comment": "number of active players (human & AI)"
+  }
  },
  "gObject.Types": {
   "proposed": "gObjectTypes",
@@ -5954,7 +7060,8 @@
    "XTJSON/batch/Collect_stacks_export_everything/scripts/Collect_stacks_export_everything__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gObjectGeometryLabels": {
   "proposed": "gObjectGeometryLabels",
@@ -5979,7 +7086,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gObjectPropertyCheckBoxScript": {
   "proposed": "gObjectPropertyCheckBoxScript",
@@ -6004,7 +7112,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gObjectPropertyFieldsScript": {
   "proposed": "gObjectPropertyFieldsScript",
@@ -6029,7 +7138,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gObjectTransforms": {
   "proposed": "gObjectTransforms",
@@ -6066,7 +7176,8 @@
   "comments": [
    "the 3D attributes of an object"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gOffsetX": {
   "proposed": "gOffsetX",
@@ -6083,7 +7194,15 @@
   "comments": [
    "X offset from origin X of object at scale to gZoomLevel"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gOffsetX",
+   "comment": "X offset from origin X of object at scale to gZoomLevel"
+  }
  },
  "gOffsetXY": {
   "proposed": "gOffsetXY",
@@ -6098,7 +7217,8 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gOffsetY": {
   "proposed": "gOffsetY",
@@ -6115,7 +7235,15 @@
   "comments": [
    "Y offset from origin Y of object at scale to gZoomLevel"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gOffsetY",
+   "comment": "Y offset from origin Y of object at scale to gZoomLevel"
+  }
  },
  "gParent": {
   "proposed": "gParent",
@@ -6132,7 +7260,15 @@
   "comments": [
    "ENUM of player number used to determine game object ownership ie, 1,2,3 etc"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gParent",
+   "comment": "ENUM of player number used to determine game object ownership ie, 1,2,3 etc"
+  }
  },
  "gPBMImageData": {
   "proposed": "gPBMImageData",
@@ -6149,7 +7285,8 @@
   "comments": [
    "- binary data string with PBM Header and padding"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gPlayDirection": {
   "proposed": "gPlayDirection",
@@ -6168,7 +7305,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gPlayerA": {
   "proposed": "gPlayerA",
@@ -6185,7 +7323,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gPlayerBaseDefaults": {
   "proposed": "gPlayerBaseDefaults",
@@ -6202,7 +7341,15 @@
   "comments": [
    "item string of default values applied to player bases at creation ie \",1,95,15,15,15,16,16,16,1,1,1,0\""
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gPlayerBaseDefaults",
+   "comment": "item string of default values applied to player bases at creation ie \",1,95,15,15,15,16,16,16,1,1,1,0\""
+  }
  },
  "gPlayerBaseList": {
   "proposed": "gPlayerBaseList",
@@ -6219,7 +7366,15 @@
   "comments": [
    "active player's list of bases"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gPlayerBaseList",
+   "comment": "active player's list of bases"
+  }
  },
  "gPlayerList": {
   "proposed": "gPlayerList",
@@ -6236,7 +7391,15 @@
   "comments": [
    "line item list of players ie, \"player1, player2, player3\" etc"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gPlayerList",
+   "comment": "line item list of players ie, \"player1, player2, player3\" etc"
+  }
  },
  "gPlayerName": {
   "proposed": "gPlayerName",
@@ -6253,7 +7416,15 @@
   "comments": [
    "current player whose data is being changed ie, \"Player1\""
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gPlayerName",
+   "comment": "current player whose data is being changed ie, \"Player1\""
+  }
  },
  "gPlayerNames": {
   "proposed": "gPlayerNames",
@@ -6270,7 +7441,8 @@
   "comments": [
    "UNUSED list of names for AI players --- CLEAN MULTIPLE SCRIPTS -- UNUSED"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gPlayerNumber": {
   "proposed": "gPlayerNumber",
@@ -6287,7 +7459,15 @@
   "comments": [
    "player ENUM used to determine game object owner ie, 1,2,3 etc"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gPlayerNumber",
+   "comment": "player ENUM used to determine game object owner ie, 1,2,3 etc"
+  }
  },
  "gPlayerProperties": {
   "proposed": "gPlayerProperties",
@@ -6304,7 +7484,15 @@
   "comments": [
    "UNUSED REMOVE FROM INIT"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gPlayerProperties",
+   "comment": "UNUSED REMOVE FROM INIT"
+  }
  },
  "gPlayHistorySpeed": {
   "proposed": "gPlayHistorySpeed",
@@ -6319,7 +7507,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gPlaying": {
   "proposed": "gPlaying",
@@ -6340,7 +7529,8 @@
   "comments": [],
   "clash": [
    "bPlaying"
-  ]
+  ],
+  "gad": null
  },
  "gPngHeader": {
   "proposed": "gPngHeader",
@@ -6359,7 +7549,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gPopulation": {
   "proposed": "gPopulation",
@@ -6376,7 +7567,15 @@
   "comments": [
    "game object property set by player to adjust goal of gCivilization"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gPopulation",
+   "comment": "game object property set by player to adjust goal of gCivilization"
+  }
  },
  "gProduction": {
   "proposed": "gProduction",
@@ -6393,7 +7592,15 @@
   "comments": [
    "game object property set by player to adjust goal of gMotivation"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gProduction",
+   "comment": "game object property set by player to adjust goal of gMotivation"
+  }
  },
  "gProwlerList": {
   "proposed": "gProwlerList",
@@ -6410,7 +7617,8 @@
   "comments": [
    "UNUSED list of mobiles patrolling a base"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gProwlers": {
   "proposed": "gProwlers",
@@ -6427,7 +7635,15 @@
   "comments": [
    "integer value of number of prowlers patrolling a base -- Maybe Deprecate?"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gProwlers",
+   "comment": "integer value of number of prowlers patrolling a base -- Maybe Deprecate?"
+  }
  },
  "gProwlersList": {
   "proposed": "gProwlersList",
@@ -6442,7 +7658,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gProwlersList",
+   "comment": ""
+  }
  },
  "gPrudence": {
   "proposed": "gPrudence",
@@ -6459,7 +7683,15 @@
   "comments": [
    "game object property set by player to adjust goal of gEducation"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gPrudence",
+   "comment": "game object property set by player to adjust goal of gEducation"
+  }
  },
  "gRandomNumbersList": {
   "proposed": "gRandomNumbersList",
@@ -6476,7 +7708,15 @@
   "comments": [
    "random numbers broke in Livecode, using first set of random values as substitute"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gRandomNumbersList",
+   "comment": "random numbers broke in Livecode, using first set of random values as substitute"
+  }
  },
  "gRandomPlaying": {
   "proposed": "gRandomPlaying",
@@ -6495,7 +7735,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRectangles": {
   "proposed": "gRectangles",
@@ -6512,7 +7753,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRecursions": {
   "proposed": "gRecursions",
@@ -6529,7 +7771,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRenderPoints": {
   "proposed": "gRenderPoints",
@@ -6549,7 +7792,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRendevousEntityProperties": {
   "proposed": "gRendevousEntityProperties",
@@ -6566,7 +7810,8 @@
   "comments": [
    "- = \"uid,type,location,faction,patrols\""
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRendezvousList": {
   "proposed": "gRendezvousList",
@@ -6581,7 +7826,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gRendezvousList",
+   "comment": ""
+  }
  },
  "gReplaceHistory": {
   "proposed": "gReplaceHistory",
@@ -6599,7 +7852,8 @@
    "XTJSON/batch/rev/ig3d_MainUI050107/scripts/Find_T3D__group_1053_replace.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "grevappIcon": {
   "proposed": "gGrevappIcon",
@@ -6614,7 +7868,8 @@
    "XTJSON/batch/rev/ig3d_MainUI050107/scripts/console__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRight": {
   "proposed": "gRight",
@@ -6639,7 +7894,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRootLabelArray": {
   "proposed": "gRootLabelArray",
@@ -6664,7 +7920,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRootLabelArrayKeys": {
   "proposed": "gRootLabelArrayKeys",
@@ -6689,7 +7946,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gRootLabelArrayKeysDisplay": {
   "proposed": "gRootLabelArrayKeysDisplay",
@@ -6714,7 +7972,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gScene": {
   "proposed": "gScene",
@@ -6729,7 +7988,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSceneObjects": {
   "proposed": "gSceneObjects",
@@ -6767,7 +8027,8 @@
   "comments": [
    "draw list, one \"MeshName GraphicName\" per line (Phase 2)"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSceneTransforms": {
   "proposed": "gSceneTransforms",
@@ -6789,7 +8050,8 @@
   "comments": [
    "all the 3D attributes in one array"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gScrollOffsetX": {
   "proposed": "gScrollOffsetX",
@@ -6806,7 +8068,15 @@
   "comments": [
    "x offset of map with scrolling applied"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gScrollOffsetX",
+   "comment": "x offset of map with scrolling applied"
+  }
  },
  "gScrollOffsetY": {
   "proposed": "gScrollOffsetY",
@@ -6823,7 +8093,15 @@
   "comments": [
    "y offset of map with scorlling applied"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gScrollOffsetY",
+   "comment": "y offset of map with scorlling applied"
+  }
  },
  "gSecondLevelArray": {
   "proposed": "gSecondLevelArray",
@@ -6848,7 +8126,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSecondLevelArrayKeyLabel": {
   "proposed": "gSecondLevelArrayKeyLabel",
@@ -6873,7 +8152,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSecondLevelArrayKeys": {
   "proposed": "gSecondLevelArrayKeys",
@@ -6898,7 +8178,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSecondLevelArrayToggles": {
   "proposed": "gSecondLevelArrayToggles",
@@ -6923,7 +8204,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectableGameObjects": {
   "proposed": "gSelectableGameObjects",
@@ -6938,7 +8220,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gSelectableGameObjects",
+   "comment": ""
+  }
  },
  "gSelectedBase": {
   "proposed": "gSelectedBase",
@@ -6955,7 +8245,8 @@
   "comments": [
    "UNUSED FIX 6 Scripts"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedFileArray": {
   "proposed": "gSelectedFileArray",
@@ -6980,7 +8271,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedFileArrayContentList": {
   "proposed": "gSelectedFileArrayContentList",
@@ -7005,7 +8297,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedFileArrayContentSelection": {
   "proposed": "gSelectedFileArrayContentSelection",
@@ -7030,7 +8323,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedFileArrayKeyIndex": {
   "proposed": "gSelectedFileArrayKeyIndex",
@@ -7051,7 +8345,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedFileArrayKeys": {
   "proposed": "gSelectedFileArrayKeys",
@@ -7076,7 +8371,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedNode": {
   "proposed": "gSelectedNode",
@@ -7101,7 +8397,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedNodeArray": {
   "proposed": "gSelectedNodeArray",
@@ -7126,7 +8423,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedNodeArrayKeys": {
   "proposed": "gSelectedNodeArrayKeys",
@@ -7151,7 +8449,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedObject": {
   "proposed": "gSelectedObject",
@@ -7168,7 +8467,15 @@
   "comments": [
    "universal generic object selection= object type label && object index label ie, base b_001"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gSelectedObject",
+   "comment": "universal generic object selection= object type label && object index label ie, base b_001"
+  }
  },
  "gSelectedObjectIndex": {
   "proposed": "gSelectedObjectIndex",
@@ -7185,7 +8492,8 @@
   "comments": [
    "DEPRECATE REPLACE WITH gGameObjectIndexLabel"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedObjectsHistory": {
   "proposed": "gSelectedObjectsHistory",
@@ -7200,7 +8508,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gSelectedObjectsHistory",
+   "comment": ""
+  }
  },
  "gSelectedSourceDirectoryFile": {
   "proposed": "gSelectedSourceDirectoryFile",
@@ -7225,7 +8541,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedSourceDirectoryFileDescriptionNode": {
   "proposed": "gSelectedSourceDirectoryFileDescriptionNode",
@@ -7249,7 +8566,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectedUIArray": {
   "proposed": "gSelectedUIArray",
@@ -7270,7 +8588,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSelectionHistory": {
   "proposed": "gSelectionHistory",
@@ -7292,7 +8611,8 @@
   "comments": [
    "Can't access locals from the Message Box, so Global it is!"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSendTo": {
   "proposed": "gSendTo",
@@ -7309,7 +8629,15 @@
   "comments": [
    "game object value determines location that produced mobiles are sent to, default to self"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gSendTo",
+   "comment": "game object value determines location that produced mobiles are sent to, default to self"
+  }
  },
  "gSendToBool": {
   "proposed": "gSendToBool",
@@ -7326,7 +8654,8 @@
   "comments": [],
   "clash": [
    "bSendToBool"
-  ]
+  ],
+  "gad": null
  },
  "gSendToPathPoints": {
   "proposed": "gSendToPathPoints",
@@ -7341,7 +8670,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gSendToPathPoints",
+   "comment": ""
+  }
  },
  "gShowHistory": {
   "proposed": "gShowHistory",
@@ -7359,7 +8696,8 @@
    "XTJSON/batch/Enochian_Livecode/enochian_watchtowers_06252025_134PM_safe/enochian_watchtowers_924AM_09252025/scripts/Enochian_watchtowers__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gShowSigils": {
   "proposed": "gShowSigils",
@@ -7377,7 +8715,8 @@
    "XTJSON/batch/Enochian_Livecode/enochian_watchtowers_06252025_134PM_safe/enochian_watchtowers_924AM_09252025/scripts/Enochian_watchtowers__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gShowTemplate": {
   "proposed": "gShowTemplate",
@@ -7395,7 +8734,8 @@
    "XTJSON/batch/Enochian_Livecode/enochian_watchtowers_06252025_134PM_safe/enochian_watchtowers_924AM_09252025/scripts/Enochian_watchtowers__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSoundDirectory": {
   "proposed": "gSoundDirectory",
@@ -7410,7 +8750,8 @@
    "xtalk_py/corpus/engines/Vibecode3D_engine_stack_script.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSourceDirectoryFilesList": {
   "proposed": "gSourceDirectoryFilesList",
@@ -7435,7 +8776,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSourceDirectoryFolders": {
   "proposed": "gSourceDirectoryFolders",
@@ -7461,7 +8803,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSourceDirectoryRoot": {
   "proposed": "gSourceDirectoryRoot",
@@ -7487,7 +8830,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gSourceFolderRoot": {
   "proposed": "gSourceFolderRoot",
@@ -7502,7 +8846,8 @@
    "XTJSON/batch/GenericaProperties_02042024A/GenericaProperties_02042024A/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStack": {
   "proposed": "gStack",
@@ -7517,7 +8862,8 @@
    "xtalk_py/corpus/reference/revErrorDisplay_capture_card_script.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStackCommands": {
   "proposed": "gStackCommands",
@@ -7535,7 +8881,15 @@
    "-- developer utlity combined list of functions and handlers in project",
    "--\tdeveloper utlity combined list of functions and handlers in project"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gStackCommands",
+   "comment": "-- developer utlity combined list of functions and handlers in project"
+  }
  },
  "gStackDataPath": {
   "proposed": "gStackDataPath",
@@ -7550,7 +8904,8 @@
    "XTJSON/batch/Collect_stacks_export_everything/scripts/Collect_stacks_export_everything__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStackDirectory": {
   "proposed": "gStackDirectory",
@@ -7597,7 +8952,8 @@
   "comments": [],
   "clash": [
    "stackDirectory"
-  ]
+  ],
+  "gad": null
  },
  "gStackFilePath": {
   "proposed": "gStackFilePath",
@@ -7612,7 +8968,8 @@
    "XTJSON/batch/ImageOrganizer_03222025b/scripts/ImageOrganizer_02102025__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStackFullPath": {
   "proposed": "gStackFullPath",
@@ -7638,7 +8995,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStackFunctions": {
   "proposed": "gStackFunctions",
@@ -7656,7 +9014,15 @@
    "-- developer utility list of functions in the project",
    "-- \tdeveloper utility list of functions in the project"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gStackFunctions",
+   "comment": "-- developer utility list of functions in the project"
+  }
  },
  "gStackGlobalist": {
   "proposed": "gStackGlobalist",
@@ -7671,7 +9037,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStackHandlers": {
   "proposed": "gStackHandlers",
@@ -7689,7 +9056,15 @@
    "-- developer utility list of handlers in the project",
    "--\tdeveloper utility list of handlers in the project"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gStackHandlers",
+   "comment": "-- developer utility list of handlers in the project"
+  }
  },
  "gStackScript": {
   "proposed": "gStackScript",
@@ -7706,7 +9081,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStackScriptGlobalHeader": {
   "proposed": "gStackScriptGlobalHeader",
@@ -7732,7 +9108,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStage": {
   "proposed": "gStage",
@@ -7747,7 +9124,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStatusBrowserLauncher": {
   "proposed": "gStatusBrowserLauncher",
@@ -7765,7 +9143,8 @@
   "comments": [
    "set only by the launcher standalone when it opens the browser"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gStatusText": {
   "proposed": "gStatusText",
@@ -7780,7 +9159,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gStatusText",
+   "comment": ""
+  }
  },
  "gTargetFolder": {
   "proposed": "gTargetFolder",
@@ -7795,7 +9182,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gTargetPath": {
   "proposed": "gTargetPath",
@@ -7810,7 +9198,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gTimeEnd": {
   "proposed": "gTimeEnd",
@@ -7825,7 +9214,8 @@
    "XTJSON/batch/MasterLists_02_09_2026_DND_DATAS_Not_List_removed/scripts/MasterLists__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gTimePassed": {
   "proposed": "gTimePassed",
@@ -7840,7 +9230,8 @@
    "XTJSON/batch/MasterLists_02_09_2026_DND_DATAS_Not_List_removed/scripts/MasterLists__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gTimeStart": {
   "proposed": "gTimeStart",
@@ -7855,7 +9246,8 @@
    "XTJSON/batch/MasterLists_02_09_2026_DND_DATAS_Not_List_removed/scripts/MasterLists__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gTop": {
   "proposed": "gTop",
@@ -7880,7 +9272,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gTurnLoopCount": {
   "proposed": "gTurnLoopCount",
@@ -7898,7 +9291,15 @@
    "-- number of turns played by endturnX script",
    "--\tnumber of turns played by endturnX script"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gTurnLoopCount",
+   "comment": "-- number of turns played by endturnX script"
+  }
  },
  "gTurnsToRun": {
   "proposed": "gTurnsToRun",
@@ -7916,7 +9317,15 @@
    "-- number of turns to play by endturnX script",
    "--\tnumber of turns to play by endturnX script"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gTurnsToRun",
+   "comment": "-- number of turns to play by endturnX script"
+  }
  },
  "gType": {
   "proposed": "gType",
@@ -7933,7 +9342,15 @@
   "comments": [
    "game object property type ENUM, ie, type of gameobject: base,mobile,path,rendezvous, maybe also defense,offense,service,"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gType",
+   "comment": "game object property type ENUM, ie, type of gameobject: base,mobile,path,rendezvous, maybe also defense,offense,service,expand"
+  }
  },
  "gUIPropertiesArrayList": {
   "proposed": "gUIPropertiesArrayList",
@@ -7954,7 +9371,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gUnitSize": {
   "proposed": "gUnitSize",
@@ -7972,7 +9390,8 @@
    "XTJSON/batch/Enochian_Livecode/enochian_watchtowers_06252025_134PM_safe/enochian_watchtowers_924AM_09252025/scripts/Enochian_watchtowers__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gUtilityFunctions": {
   "proposed": "gUtilityFunctions",
@@ -7987,7 +9406,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gUtilityFunctions",
+   "comment": ""
+  }
  },
  "gVectorDrawDelay": {
   "proposed": "gVectorDrawDelay",
@@ -8002,7 +9429,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gVectorDrawIter": {
   "proposed": "gVectorDrawIter",
@@ -8017,7 +9445,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gViewBottom": {
   "proposed": "gViewBottom",
@@ -8047,7 +9476,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gViewLeft": {
   "proposed": "gViewLeft",
@@ -8077,7 +9507,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gViewRight": {
   "proposed": "gViewRight",
@@ -8107,7 +9538,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gViewTop": {
   "proposed": "gViewTop",
@@ -8137,7 +9569,8 @@
    "xtalk_py/corpus/games/vibecode3d/Vibecode3D_Play_demo.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gWidth": {
   "proposed": "gWidth",
@@ -8164,7 +9597,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gWorldA": {
   "proposed": "gWorldA",
@@ -8181,7 +9615,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gWorldName": {
   "proposed": "gWorldName",
@@ -8198,7 +9633,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gWriteToDirectoryRoot": {
   "proposed": "gWriteToDirectoryRoot",
@@ -8219,7 +9655,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "gX": {
   "proposed": "gX",
@@ -8248,7 +9685,15 @@
   "comments": [
    "game object property of x origin used for map zooming and paths, static for base and defense mobiles"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gX",
+   "comment": "game object property of x origin used for map zooming and paths, static for base and defense mobiles"
+  }
  },
  "gY": {
   "proposed": "gY",
@@ -8277,7 +9722,15 @@
   "comments": [
    "game object property of y origin used for map zooming and paths, static for base and defense mobiles"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gY",
+   "comment": "game object property of y origin used for map zooming and paths, static for base and defense mobiles"
+  }
  },
  "gZeroedGameObjectData": {
   "proposed": "gZeroedGameObjectData",
@@ -8294,7 +9747,15 @@
   "comments": [
    "item string of 16 zeroes to place the data into"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gZeroedGameObjectData",
+   "comment": "item string of 16 zeroes to place the data into"
+  }
  },
  "gZoomLevel": {
   "proposed": "gZoomLevel",
@@ -8313,7 +9774,15 @@
   "comments": [
    "map zoom percentage"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "gZoomLevel",
+   "comment": "map zoom percentage"
+  }
  },
  "IDItem": {
   "proposed": "gIDItem",
@@ -8330,7 +9799,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "IDItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "levelItem": {
   "proposed": "gLevelItem",
@@ -8347,7 +9824,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "levelItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "lifeItem": {
   "proposed": "gLifeItem",
@@ -8364,7 +9849,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "lifeItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "massImportFilePathList": {
   "proposed": "gMassImportFilePathList",
@@ -8379,7 +9872,8 @@
    "xtalk_py/corpus/originals/BITMAPVECTORTRACER_Livecode_Stack_Script.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "maxFrames": {
   "proposed": "gMaxFrames",
@@ -8394,7 +9888,8 @@
    "XTJSON/batch/Adventurer_sprite/scripts/Untitled_1__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "maze": {
   "proposed": "gMaze",
@@ -8411,7 +9906,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "motivationItem": {
   "proposed": "gMotivationItem",
@@ -8428,7 +9924,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "motivationItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "mStack": {
   "proposed": "gMStack",
@@ -8443,7 +9947,8 @@
    "XTJSON/batch/Clip_interrogation_Livecode/ClipCompiler3_movie_scenes/scripts/ClipCompiler3__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "myBrowser": {
   "proposed": "gMyBrowser",
@@ -8460,7 +9965,8 @@
    "XTJSON/batch/BATCH_Livecode/BatchScrapDrop/SuspectIPProcKillerv02/scripts/SuspectIPProcKiller__field_1036_IPList.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "myContextText": {
   "proposed": "gMyContextText",
@@ -8482,7 +9988,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__field_1009_SelectedFileArrayContentListField.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "myNumber": {
   "proposed": "gMyNumber",
@@ -8497,7 +10004,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__field_1137_GuiToggle.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "originalVal": {
   "proposed": "gOriginalVal",
@@ -8513,7 +10021,8 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__scrollbar_1675_population.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "parentItem": {
   "proposed": "gParentItem",
@@ -8530,7 +10039,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "parentItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "PathToLive": {
   "proposed": "gPathToLive",
@@ -8545,7 +10062,8 @@
    "XTJSON/batch/CO_DemoReader_Main/Demolisher_0005a_Current/scripts/Demolisher__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "pHolder": {
   "proposed": "gPHolder",
@@ -8562,7 +10080,8 @@
   "comments": [
    "for undo"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "pMouseDownBtn": {
   "proposed": "gPMouseDownBtn",
@@ -8577,7 +10096,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "PNGFound": {
   "proposed": "gPNGFound",
@@ -8596,7 +10116,8 @@
    "XTJSON/batch/CollectorStacks/Collector_v11022026/scripts/Collector_v_11_13_2025___stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "populationItem": {
   "proposed": "gPopulationItem",
@@ -8613,7 +10134,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "populationItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "productionItem": {
   "proposed": "gProductionItem",
@@ -8630,7 +10159,8 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "prudenceItem": {
   "proposed": "gPrudenceItem",
@@ -8647,7 +10177,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "prudenceItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "recordvideo": {
   "proposed": "gRecordvideo",
@@ -8666,7 +10204,8 @@
    "XTJSON/batch/bouncy/video_capture/scripts/Video_Capture__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "RENDEZVOUS_OBJECT_SCRIPT": {
   "proposed": "gRENDEZVOUSOBJECTSCRIPT",
@@ -8681,7 +10220,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "RENDEZVOUS_OBJECT_SCRIPT",
+   "comment": ""
+  }
  },
  "SCRIPT_GROUPBlockFilters": {
   "proposed": "gSCRIPTGROUPBlockFilters",
@@ -8696,7 +10243,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "SCRIPT_GROUPBlockFilters",
+   "comment": ""
+  }
  },
  "SCRIPT_GROUPBlocksGroupScript": {
   "proposed": "gSCRIPTGROUPBlocksGroupScript",
@@ -8711,7 +10266,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "SCRIPT_GROUPBlocksGroupScript",
+   "comment": ""
+  }
  },
  "SCRIPT_GROUPText": {
   "proposed": "gSCRIPTGROUPText",
@@ -8728,7 +10291,15 @@
   "comments": [
    "for buildnig scripts and passing them to objects"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "SCRIPT_GROUPText",
+   "comment": "for buildnig scripts and passing them to objects"
+  }
  },
  "sDragStartLoc": {
   "proposed": "gDragStartLoc",
@@ -8745,7 +10316,15 @@
   "comments": [
    "mouse XY at mouse down (for scrolling), currently used for map click point"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "sDragStartLoc",
+   "comment": "mouse XY at mouse down (for scrolling), currently used for map click point"
+  }
  },
  "sendtoItem": {
   "proposed": "gSendtoItem",
@@ -8762,7 +10341,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "sendtoItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "SET_VALUE_OF_GAME_OBJECT_DATA": {
   "proposed": "gSETVALUEOFGAMEOBJECTDATA",
@@ -8777,7 +10364,15 @@
    "XTJSON/batch/GAD_WORKING_03_16_2026/scripts/GAD_WORKING_02_04_2026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "SET_VALUE_OF_GAME_OBJECT_DATA",
+   "comment": ""
+  }
  },
  "sf": {
   "proposed": "gSf",
@@ -8798,7 +10393,8 @@
   "comments": [
    "scalefactor"
   ],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "sLM_HistoryA": {
   "proposed": "gLMHistoryA",
@@ -8815,7 +10411,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "sLM_HistoryList": {
   "proposed": "gLMHistoryList",
@@ -8832,7 +10429,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "sLM_Model": {
   "proposed": "gLMModel",
@@ -8849,7 +10447,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "sLM_URL": {
   "proposed": "gLMURL",
@@ -8866,7 +10465,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "sStartdragLoc": {
   "proposed": "gStartdragLoc",
@@ -8885,7 +10485,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__button_1011_fieldresizerbutton.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "stackDirectory": {
   "proposed": "gStackDirectory",
@@ -8904,7 +10505,8 @@
   "comments": [],
   "clash": [
    "gStackDirectory"
-  ]
+  ],
+  "gad": null
  },
  "tAnimationFrames": {
   "proposed": "gTAnimationFrames",
@@ -8922,7 +10524,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tArray": {
   "proposed": "gTArray",
@@ -8940,7 +10543,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tCount": {
   "proposed": "gTCount",
@@ -8955,7 +10559,8 @@
    "XTJSON/batch/That_DND_LLM_WORLD_BUILDER_THING/scripts/lmstudioapilib_0202026__button_1034_Script_me.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tDemo": {
   "proposed": "gTDemo",
@@ -8970,7 +10575,8 @@
    "XTJSON/batch/CO_DemoReader_Main/Demolisher_0005a_Current/scripts/Demolisher__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tDragging": {
   "proposed": "gTDragging",
@@ -8986,7 +10592,8 @@
    "XTJSON/batch/BitFontMaker_02_20_2026/scripts/ScriptWindow__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tFavoriteURL": {
   "proposed": "gTFavoriteURL",
@@ -9001,7 +10608,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tFrameDelay": {
   "proposed": "gTFrameDelay",
@@ -9019,7 +10627,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tGridSize": {
   "proposed": "gTGridSize",
@@ -9035,7 +10644,8 @@
    "XTJSON/batch/BitFontMaker_02_20_2026/scripts/ScriptWindow__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tImagePath": {
   "proposed": "gTImagePath",
@@ -9053,7 +10663,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tImportAttempted": {
   "proposed": "gTImportAttempted",
@@ -9071,7 +10682,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tLabel": {
   "proposed": "gTLabel",
@@ -9086,7 +10698,8 @@
    "XTJSON/batch/Web_Collector_Watcher_10_16_2026223pm_newest/scripts/Web_Collector_Watcher_03_04_20261004pm__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tLastSavedImage": {
   "proposed": "gTLastSavedImage",
@@ -9104,7 +10717,8 @@
    "xtalk_py/corpus/originals/GridDraw_Animation_Stack_10272026.txt"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tMouseDown": {
   "proposed": "gTMouseDown",
@@ -9120,7 +10734,8 @@
    "XTJSON/batch/BitFontMaker_02_20_2026/scripts/ScriptWindow__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tMouseDownBtn": {
   "proposed": "gTMouseDownBtn",
@@ -9136,7 +10751,8 @@
    "XTJSON/batch/BitFontMaker_02_20_2026/scripts/ScriptWindow__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tTargetPath": {
   "proposed": "gTTargetPath",
@@ -9152,7 +10768,8 @@
    "XTJSON/batch/BitFontMaker_02_20_2026/scripts/ScriptWindow__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "tWidth": {
   "proposed": "gTWidth",
@@ -9167,7 +10784,8 @@
    "XTJSON/batch/BitFontMaker_02_20_2026/scripts/ScriptWindow__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "typeItem": {
   "proposed": "gTypeItem",
@@ -9184,7 +10802,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "typeItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "xField": {
   "proposed": "gXField",
@@ -9209,7 +10835,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "xItem": {
   "proposed": "gXItem",
@@ -9226,7 +10853,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "xItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "xScroll": {
   "proposed": "gXScroll",
@@ -9241,7 +10876,8 @@
    "XTJSON/batch/GAD_SendTo_And_Zoom_NODES/scripts/GAD_SendTo_And_Zoom__card_1002.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "yField": {
   "proposed": "gYField",
@@ -9266,7 +10902,8 @@
    "XTJSON/batch/GenericaProperties_Day_3_Part1_SavesGeometries/scripts/GenericaProperties__stack.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  },
  "yItem": {
   "proposed": "gYItem",
@@ -9283,7 +10920,15 @@
   "comments": [
    "ENUM item offset in gGameObjectProperties item list"
   ],
-  "clash": []
+  "clash": [],
+  "gad": {
+   "owner": "Application",
+   "type": "Integer",
+   "content": 0,
+   "by_rule": true,
+   "name": "yItem",
+   "comment": "ENUM item offset in gGameObjectProperties item list"
+  }
  },
  "yScroll": {
   "proposed": "gYScroll",
@@ -9298,6 +10943,7 @@
    "XTJSON/batch/GAD_SendTo_And_Zoom_NODES/scripts/GAD_SendTo_And_Zoom__card_1002.livecodescript"
   ],
   "comments": [],
-  "clash": []
+  "clash": [],
+  "gad": null
  }
 }

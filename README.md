@@ -9,6 +9,7 @@ breaking anything when compiled together with other scripts. LIB_SYSTEM TODO A-3
 | `GLOBALS.md` | the register, for people: every global, whether it follows `gWhatIsIt`, a proposed name if not, Python type, writes/reads, where declared, purpose |
 | `globals.json` | the same, for tools |
 | `python/lib_globals.py` | the Python twin: `GLOBALS[name] = (type, proposed name, purpose)`, `new_state()` |
+| GAD column | P5: owner / type / content from the owner's 2024 GAD_Globals stack (165 globals). Only the comments were saved per global; owner/type/content are the stack's default rule, marked "(rule)". That rule calls every name starting with b Boolean, so `buildItem` (an item number) shows Boolean: trust the comment |
 | `PURPOSES.md` | purposes written by people (`gName - what it is for`); the tool keeps them |
 | `tools/globals_census.py` | makes the three generated files; `--help` |
 
