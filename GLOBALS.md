@@ -13,25 +13,25 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gStackDirectory` | ok | - | str | 30/64 | XTJSON/rev (5), XTJSON/Enochian_Livecode (5), xtalk_py (2), XTJSON/Collect_stacks_export_everything (2) +8 | - | the folder the stack file is in (the path without its last item); used as the default folder [many stacks] |
 | `gDebug` | ok | - | str | 26/55 | XTJSON/GenericaProperties_02042024A (9), xtalk_py (3), LIB_GAMES (2), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries +1 | Application / Integer / 0 (rule) | makes it easier to find my while bug hunting; long string of debug text |
 | `gViewBottom` | ok | - | float | 7/46 | LIB_GAMES (9), xtalk_py (6) | - | bottom edge of the 3D view: the stack's height (446 by default) [Vibecode3D] |
-| `gViewLeft` | ok | - | float | 7/66 | LIB_GAMES (9), xtalk_py (6) | - | left edge of the 3D view in the window (0) [Vibecode3D] |
-| `gViewRight` | ok | - | float | 7/22 | LIB_GAMES (9), xtalk_py (6) | - |  |
+| `gViewLeft` | ok | - | float | 7/66 | LIB_GAMES (9), xtalk_py (6) | - | left edge of the 3D view in window pixels (0 in the demo games' viewport setup) [Vibecode3D games] |
+| `gViewRight` | ok | - | float | 7/22 | LIB_GAMES (9), xtalk_py (6) | - | right edge of the 3D view in window pixels (306 in the demo games' viewport setup); HUD text is placed from it and gViewLeft gives the view width [Vibecode3D games] |
 | `gViewTop` | ok | - | float | 7/45 | LIB_GAMES (9), xtalk_py (6) | - | top edge of the 3D view in the window (0) [Vibecode3D] |
-| `gHandlerPrefix` | ok | - | str | 14/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 | Application / Integer / 0 (rule) |  |
-| `gHandlerSuffix` | ok | - | str | 15/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 | Application / Integer / 0 (rule) |  |
+| `gHandlerPrefix` | ok | - | str | 14/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 | Application / Integer / 0 (rule) | the word "on", spelled in pieces ("o"&"n" or numToChar) so the script writing it does not start a handler; used to write GameObject.<property> handlers [GenericaProperties, GAD_WORKING] |
+| `gHandlerSuffix` | ok | - | str | 15/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 | Application / Integer / 0 (rule) | the word "end", spelled in pieces like gHandlerPrefix; closes the written handlers [GenericaProperties, GAD_WORKING] |
 | `bBookSmart` | rename | `gBookSmart` | bool | 11/0 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `CenterX` | rename | `gCenterX` | float | 6/43 | xtalk_py (5), LIB_GAMES (5), XTJSON/Stick_Figure_Bubble_Man | - | --  the center, or pivot point of the object(s) |
 | `CenterY` | rename | `gCenterY` | float | 6/46 | xtalk_py (5), LIB_GAMES (5), XTJSON/Stick_Figure_Bubble_Man | - | --  the center, or pivot point of the object(s) |
-| `gChangedLabelsList` | ok | - | str | 13/3 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
-| `gCurrentDescription` | ok | - | str | 32/12 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
+| `gChangedLabelsList` | ok | - | str | 13/3 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | gCurrentLabelsList with the edited line swapped in, blank lines removed; stored back into gFirstLevelArray [GenericaProperties] |
+| `gCurrentDescription` | ok | - | str | 32/12 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the "description" of the picked entry, shown in and read back from field GamePropertyDescriptionField [GenericaProperties] |
 | `gCurrentFileList` | ok | - | str | 51/57 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the files of the current folder (`the files`), or the labels file list [Generica] |
-| `gCurrentLabelArray` | ok | - | dict | 19/9 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
+| `gCurrentLabelArray` | ok | - | dict | 19/9 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | one branch of gCurrentOutline (the label set picked by gFirstLevelArrayLabel) [GenericaProperties] |
 | `gCurrentLabelArrayKeys` | ok | - | str | 12/7 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
-| `gCurrentLabelsList` | ok | - | dict | 12/7 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
-| `gCurrentOutline` | ok | - | dict | 19/8 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
+| `gCurrentLabelsList` | ok | - | dict | 12/7 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the "<name>_labels" text of gFirstLevelArray, shown in field FirstLevelTextField [GenericaProperties] |
+| `gCurrentOutline` | ok | - | dict | 19/8 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the card's `outline` custom property (the label tree) while it is edited; written back with set the outline of this card [GenericaProperties] |
 | `gCurrentPropertySet` | ok | - | str | 55/40 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the custom property set in use on the card (read from and set as the customPropertySet) [Generica] |
 | `gCurrrentFolder` | ok | - | str | 11/0 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
-| `gFirstLevelArray` | ok | - | dict | 18/7 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
-| `gFirstLevelArrayKey` | ok | - | str | 12/8 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
+| `gFirstLevelArray` | ok | - | dict | 18/7 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the picked entry: its "<name>_labels" text and its "description" [GenericaProperties] |
+| `gFirstLevelArrayKey` | ok | - | str | 12/8 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the key of the picked entry inside gCurrentLabelArray [GenericaProperties] |
 | `gFirstLevelArraykeys` | ok | - | str | 12/0 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gFirstLevelArrayName` | ok | - | str | 22/32 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | gFirstLevelFile without its 4-character extension; the name its array is stored under [Generica] |
 | `gFirstLevelFile` | ok | - | str | 33/58 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the file picked in that folder [Generica] |
@@ -41,9 +41,9 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gFirstLevelFolderPath` | ok | - | str | 33/73 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | gSourceDirectoryRoot & "/" & gFirstLevelFolder; used as the defaultFolder [Generica] |
 | `gFirstLevelText` | ok | - | str | 44/54 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the text of that file (put URL gFirstLevelFilePath) [Generica] |
 | `gFoundGlobals` | ok | - | str | 33/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | global names found by that scan, one per line [Generica] |
-| `gFrameworkArray` | ok | - | dict | 13/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
-| `gGlobalInitBuild` | ok | - | str | 22/55 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the generated text of an `on initNewGlobals` handler, built from the found globals (the stack writes its own init script) [Generica] |
-| `gGlobalInitBuildHeader` | ok | - | str | 22/22 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
+| `gFrameworkArray` | ok | - | dict | 13/2 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the card's `outline` property when loading label folders; each first-level folder is one key [GenericaProperties] |
+| `gGlobalInitBuild` | ok | - | str | 22/55 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the written handler "on initNewGlobals" that puts empty into every global, line by line [GenericaProperties] |
+| `gGlobalInitBuildHeader` | ok | - | str | 22/22 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the marker line "---BEGIN_GLOBAL_INIT---" put before the written init handler and filtered out of a script to find it again [GenericaProperties] |
 | `gGlobalInitCatch` | ok | - | str | 66/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | one generated line `put "name" into name` for a found global [Generica] |
 | `gGlobalList` | ok | - | str | 34/68 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gGlobalPrefixChar` | ok | - | str | 22/33 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the prefix letter that marks a global name when scanning scripts for globals [Generica] |
@@ -52,11 +52,11 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gSourceDirectoryFolders` | ok | - | str | 33/35 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the folders found in the source folder (`the folders`) [Generica] |
 | `gSourceDirectoryRoot` | ok | - | str | 42/70 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the chosen source folder; also stored in the stack's Source_Directory_Root property and used as the defaultFolder [Generica] |
 | `gStackFullPath` | ok | - | str | 41/19 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | full file path of the main stack, cut from its long name [Generica] |
-| `gStackScriptGlobalHeader` | ok | - | str | 11/22 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
+| `gStackScriptGlobalHeader` | ok | - | str | 11/22 | XTJSON/GenericaProperties_02042024A (10), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the "global <name>" lines written at the top of a generated stack script [GenericaProperties] |
 | `gWidth` | ok | - | float | 22/47 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/BitFontMaker_02_20_2026 | - | width of the working area: gRight - gLeft, or a fixed 512 [Generica] |
 | `gX` | ok | - | float | 34/35 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 | Application / Integer / 0 (rule) | game object property of x origin used for map zooming and paths, static for base and defense mobiles |
 | `gY` | ok | - | float | 34/35 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries, XTJSON/GAD_WORKING_03_16_2026 | Application / Integer / 0 (rule) | game object property of y origin used for map zooming and paths, static for base and defense mobiles |
-| `bMouseLook` | rename | `gMouseLook` | bool | 9/4 | xtalk_py (8), LIB_GAMES (2) | - |  |
+| `bMouseLook` | rename | `gMouseLook` | bool | 9/4 | xtalk_py (8), LIB_GAMES (2) | - | true while mouse look steers the camera; set by the enable call's pEnabled, false at start and when mouselook.stop runs [Vibecode3D games] |
 | `gArrayRootLabel` | ok | - | str | 10/5 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gBottom` | ok | - | float | 20/20 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gButtonPropertyBoolItems` | ok | - | str | 30/26 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the list of true/false button property names (visible, opaque, showName, autoHilite...) [Generica] |
@@ -65,14 +65,14 @@ Every `global` declared in the scanned LiveCode (1225 distinct script files). 49
 | `gFirstLevelSubArrayLabel` | ok | - | dict | 37/10 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | array of that file's label lines under padded numbers ("001"...), plus "description" [Generica] |
 | `gGlob` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gHeight` | ok | - | float | 20/40 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | height of the working area: gTop - gBottom [Generica] |
-| `gLastClick` | ok | - | str | 12/30 | XTJSON/Scott_Rossi_Stacks_Perhaps_question_mark (10) | - |  |
+| `gLastClick` | ok | - | str | 12/30 | XTJSON/Scott_Rossi_Stacks_Perhaps_question_mark (10) | - | the day button clicked last (its name or the target); un-hilited when another is clicked, its label is the day [Scott Rossi calendar stack] |
 | `gLeft` | ok | - | float | 10/30 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gMeshCache` | ok | - | dict | 4/3 | xtalk_py (7), LIB_GAMES (3) | - | cached meshes, see Mesh.Build |
 | `gNodeLabelsLabel` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gNodeLabelsList` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gObjectGeometryLabels` | ok | - | str | 20/10 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
-| `gObjectPropertyCheckBoxScript` | ok | - | str | 10/30 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
-| `gObjectPropertyFieldsScript` | ok | - | str | 20/20 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
+| `gObjectPropertyCheckBoxScript` | ok | - | str | 10/30 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | the same for the property toggle buttons: becomes the script of the templateButton before they are made [GenericaProperties] |
+| `gObjectPropertyFieldsScript` | ok | - | str | 20/20 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - | a field script cut from a template script (lines tStart to tEnd, its prefix replaced) and set into each property field made [GenericaProperties] |
 | `gRight` | ok | - | float | 20/20 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gRootLabelArray` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
 | `gRootLabelArrayKeys` | ok | - | str | 10/0 | XTJSON/GenericaProperties_02042024A (9), XTJSON/GenericaProperties_Day_3_Part1_SavesGeometries | - |  |
