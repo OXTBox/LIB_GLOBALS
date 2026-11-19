@@ -75,3 +75,7 @@ gGlobalList - every global the stack script declares, one per line, from list.sc
 gEditorState - one undo / history state of the bitmap animation editor: the selected actor, anim and frame and the frame's bits (gBinaryString), as returned by UI.record.state(), which also appends it to the mainStack's EditorStates "states" property; used for unlimited undo (ctrl-Z goes back to the last state) and to copy anims or frames between actors [GridDraw Animation; the owner]
 gGridSize - cells per row (and per column: square grids): the grid's width divided by the cell size. The owner: "if this isn't needed it can be scrapped" [GridDraw Animation; the owner]
 tArray - not a real global: a temporary array (t = temp) made global while hunting which handler passed it the wrong data. The owner: remove the global line and run, and the culprit shows itself; likely left over from the old 3D primitives stack [BitFontMaker, GridDraw; the owner]
+
+<!-- Added 2026-11-19 by Claude (Opus 5.5): hiding switches of the Vibecode3D engine (HIDING SWITCHES section). -->
+gCullMode - hiding NOW: 0 off (as always), 1 back faces, 2 and whole objects behind a solid, 3 and hidden lines; every game starts with gCullDefault, a game may change it with Cull.SetMode [Vibecode3D]
+gCullDefault - hiding the player chose in Settings (Options, HIDING tab); 0 unless chosen; Cull.SetDefault sets it, Cull.Reset copies it into gCullMode at every game start and end [Vibecode3D]
