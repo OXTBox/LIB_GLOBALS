@@ -42,3 +42,7 @@ From the owner's answers to Fable's questions (`LIB_LLMOUT/Read/LIB_GLOBALS/Clar
 
 The census marks `b` globals "ok (b)" and `t`/`p` globals "leftover?".
 
+
+## Licence
+
+MIT (see `LICENSE`), Copyright (c) 2026 xAction.
