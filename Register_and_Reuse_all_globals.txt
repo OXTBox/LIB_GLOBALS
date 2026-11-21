@@ -1,4 +1,4 @@
-Register all the livecode lobal names and what they are used for and their python equevalent structure in this library
+Register all the livecode global names and what they are used for and their python equivalent structure in this library
 Stand alone scripts can reuse these with out breaking or adding anything when being compiled with other scripts
 
 
